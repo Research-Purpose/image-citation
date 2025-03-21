@@ -1,0 +1,1610 @@
+[
+  {
+    "post_id": 79041481,
+    "title": "NestJs/Bull, runs fine locally but does not work in the cloud",
+    "llm": "gpt",
+    "extraction_without_ocr": "```typescript\nBullModule.forRoot({\n  redis: {\n    host: 'redis-xxxx.redis-cloud.com',\n    port: 14166,\n    password: 'xxxx',\n    // host: 'localhost',\n    // port: 6379,\n  },\n}),\nBullModule.registerQueue({\n  name: 'reminder',\n}),\n```",
+    "extraction_with_ocr": "```typescript\nBullModule.forRoot({\n  redis: {\n    host: 'redis-xxxx.redis-cloud.com',\n    port: 14166,\n    password: 'xxxx',\n    // host: 'localhost',\n    // port: 6379,\n  },\n}),\nBullModule.registerQueue({\n  name: 'reminder',\n}),\n```",
+    "timestamp": "2025-03-12T15:46:40.576112"
+  },
+  {
+    "post_id": 79041579,
+    "title": "Error while trying to use &quot;npx convex dev&quot;",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\n✖ Error: Unable to push deployment config to https://silent-grasshopper-634.convex.cloud\n✖ Error fetching POST https://silent-grasshopper-634.convex.cloud/api/push_config 400 Bad Request: InvalidModules: Hit an error while pushing:\nLoading the pushed modules encountered the following error:\nFailed to analyze middleware.js: Uncaught Error: This module cannot be imported from a Client Component module. It should only be used from a Server Component.\n    at <anonymous> (../node_modules/server-only/index.js:1:2)\n```",
+    "extraction_with_ocr": "```\n✖ Error: Unable to push deployment config to https://silent-grasshopper-634.convex.cloud\n✖ Error fetching POST https://silent-grasshopper-634.convex.cloud/api/push_config 400 Bad Request: InvalidModules: Hit an error while pushing:\nLoading the pushed modules encountered the following error:\nFailed to analyze middleware.js: Uncaught Error: This module cannot be imported from a Client Component module. It should only be used from a Server Component.\n    at <anonymous> (../node_modules/server-only/index.js:1:2)\n```",
+    "timestamp": "2025-03-12T15:46:47.539556"
+  },
+  {
+    "post_id": 79041624,
+    "title": "How to use switch branch button only seems to work for single repo in multi-root workspace",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:46:53.070675"
+  },
+  {
+    "post_id": 79041900,
+    "title": "Http 429 is not returnable in status code from C# ASP.NET Core Web API",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\n{\n    \"Version\": \"1.1\",\n    \"Content\": {\n        \"Headers\": []\n    },\n    \"StatusCode\": 429,\n    \"ReasonPhrase\": \"Too Many Requests\",\n    \"Headers\": [],\n    \"TrailingHeaders\": [],\n    \"RequestMessage\": null,\n    \"IsSuccessStatusCode\": false\n}\n```",
+    "extraction_with_ocr": "```\n{\n    \"Version\": \"1.1\",\n    \"Content\": {\n        \"Headers\": []\n    },\n    \"StatusCode\": 429,\n    \"ReasonPhrase\": \"Too Many Requests\",\n    \"Headers\": [],\n    \"TrailingHeaders\": [],\n    \"RequestMessage\": null,\n    \"IsSuccessStatusCode\": false\n}\n```\n\n```\nStatus: 200 OK\n```",
+    "timestamp": "2025-03-12T15:46:58.190301"
+  },
+  {
+    "post_id": 79042213,
+    "title": "Which App Description is Used in the SharePoint App Store: package-solution.json or Submission Input?",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:47:05.663050"
+  },
+  {
+    "post_id": 79042751,
+    "title": "Function wrapper generic type determination",
+    "llm": "gpt",
+    "extraction_without_ocr": "```typescript\nreturn cb?.() ?? 'default value';\n```\n\n```\nType '\"default value\" | NonNullable<T>' is not assignable to type 'T'.\n'T' could be instantiated with an arbitrary type which could be unrelated to '\"default value\" | NonNullable<T>'. ts(2322)\n```",
+    "extraction_with_ocr": "```typescript\nreturn cb?.() ?? 'default value';\n```\n\n```\nType '\"default value\" | NonNullable<T>' is not assignable to type 'T'.\n'T' could be instantiated with an arbitrary type which could be unrelated to '\"default value\" | NonNullable<T>'. ts(2322)\n```",
+    "timestamp": "2025-03-12T15:47:14.674260"
+  },
+  {
+    "post_id": 79044080,
+    "title": "is getenv_s not part of cstdlib?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nnamespace \"std\" has no member \"getenv_s\"\nauto err = std::getenv_s(nullptr, &appdata[0], 256, \"APPDATA\");\n```",
+    "extraction_with_ocr": "```\nnamespace \"std\" has no member \"getenv_s\"\nauto err = std::getenv_s(nullptr, &appdata[0], 256, \"APPDATA\");\n```",
+    "timestamp": "2025-03-12T15:47:22.253402"
+  },
+  {
+    "post_id": 79044774,
+    "title": "Why ESLint and Prettier stopped working in a VScode?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\n'React' must be in scope when using JSX eslint(react/react-in-jsx-scope)\n```",
+    "extraction_with_ocr": "```\n'React' must be in scope when using JSX eslint(react/react-in-jsx-scope)\n```",
+    "timestamp": "2025-03-12T15:47:27.780368"
+  },
+  {
+    "post_id": 79045030,
+    "title": "JS console logging using styles (%c) adds unintended line breaks",
+    "llm": "gpt",
+    "extraction_without_ocr": "```javascript\nconsole.log(`no formatting at all %c and now head field kicks in and now it stops: %c and now a bunch of text that has no formatting, oop! %can error here%c some more text with no for... %coh, another error!%c` , cssHeadField, \"\", cssError, \"\", cssError, \"\")\n\nconsole.log(`no formatting at all %c and now head field kicks in and now it stops: %c and now a bunch of text that has no formatting, oop! %can error here, maybe a longer error description too something that would be multiline or something right?%c some more text with no for... %coh, another error! This one is supposed to be long too just to test it out I guess%c` , cssHeadField, \"\", cssError, \"\", cssError, \"\")\n```",
+    "extraction_with_ocr": "```plaintext\nconsole.log(`no formatting at all %c and now head field kicks in and now it stops: %c and now a bunch of text that has no formatting, oop! %can error here%c some more text with no for... %coh, another error!%c` , cssHeadField, \"\", cssError, \"\", cssError, \"\")\n\nconsole.log(`no formatting at all %c and now head field kicks in and now it stops: %c and now a bunch of text that has no formatting, oop! %can error here, maybe a longer error description too something that would be multiline or something right?%c some more text with no for... %coh, another error! This one is supposed to be long too just to test it out I guess%c` , cssHeadField, \"\", cssError, \"\", cssError, \"\")\n```",
+    "timestamp": "2025-03-12T15:47:40.172461"
+  },
+  {
+    "post_id": 79045146,
+    "title": "Docker not launching Blazor WebAssembly App .NET 8 as expected",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:47:44.443025"
+  },
+  {
+    "post_id": 79045307,
+    "title": "Show application logcat messages in Run Console - Android Studio 2023+",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\n☑ Show application logcat messages in Run Console\n```",
+    "extraction_with_ocr": "```\n☑ Show application logcat messages in Run Console\n```",
+    "timestamp": "2025-03-12T15:47:48.064469"
+  },
+  {
+    "post_id": 79045792,
+    "title": "RealityKit HasTransform.position throws a runtime exception",
+    "llm": "gpt",
+    "extraction_without_ocr": "```swift\nlet anchorPosition = anchorNode.position(relativeTo: nil)\n```",
+    "extraction_with_ocr": "```swift\nlet anchorPosition = anchorNode.position(relativeTo: nil)\n```",
+    "timestamp": "2025-03-12T15:47:57.887263"
+  },
+  {
+    "post_id": 79046052,
+    "title": "Upgraded .Net 4.8 to .Net8.0 (Core), Microsoft.Office.Interop no longer recognises certain key words",
+    "llm": "gpt",
+    "extraction_without_ocr": "```csharp\nShowAnimation = false,\nVisible = false\n```\n\n```csharp\nforeach (Section wordSection in document.Sections)\n```\n\n```csharp\nwordSection.Headers[WdHeaderFooterIndex.wdHeaderFooterPrimary].Range.ParagraphFormat.Alignment\nwordSection.Headers[WdHeaderFooterIndex.wdHeaderFooterPrimary].Range.InlineShapes.AddPicture\n```\n\n```csharp\nwordSection.Footers[WdHeaderFooterIndex.wdHeaderFooterPrimary].Range.Text\nwordSection.Footers[WdHeaderFooterIndex.wdHeaderFooterPrimary].Range.ParagraphFormat.Alignment\nwordSection.Footers[WdHeaderFooterIndex.wdHeaderFooterPrimary].Range.InlineShapes.AddPicture\n```",
+    "extraction_with_ocr": "```csharp\nShowAnimation = false,\nVisible = false\n```\n\n```csharp\nforeach (Section wordSection in document.Sections)\n```\n\n```csharp\nHeaders[WdHeaderFooterIndex.wdHeaderFooterPrimary]\n```\n\n```csharp\nFooters[WdHeaderFooterIndex.wdHeaderFooterPrimary]\n```",
+    "timestamp": "2025-03-12T15:48:04.133623"
+  },
+  {
+    "post_id": 79047610,
+    "title": "React. Autocomplete typing does not work when using ComponentPropsWithoutRef",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:48:09.634670"
+  },
+  {
+    "post_id": 79048500,
+    "title": "Instance of component refuses to be created",
+    "llm": "gpt",
+    "extraction_without_ocr": "```html\n<app-three-js-interactive _ngcontent-ng-c3600827204></app-three-js-interactive>\n```",
+    "extraction_with_ocr": "```html\n<app-three-js-interactive _ngcontent-ng-c3600827204></app-three-js-interactive>\n```",
+    "timestamp": "2025-03-12T15:48:14.990954"
+  },
+  {
+    "post_id": 79048715,
+    "title": "LibGdx projects are failing to build in Android Studio - what is going wrong and how do I fix it?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nExecution failed for task ':android:compileDebugJavaWithJavac'.\n> Could not resolve all files for configuration ':android:androidJdkImage'.\n   > Failed to transform core-for-system-modules.jar to match attributes {artifactType=_internal_android_jdk_image, org.gradle.libraryelements=jar, org.gradle.usage=java-runtime}.\n      > Execution failed for JdkImageTransform: C:\\Users\\djack\\AppData\\Local\\Android\\Sdk\\platforms\\android-34\\core-for-system-modules.jar.\n         > Error while executing process D:\\Program Files\\Android Studio\\jbr\\bin\\jlink.exe with arguments {--module-path C:\\Users\\djack\\.gradle\\caches\\8.1\n0.1\\transform...\n```",
+    "extraction_with_ocr": "```plaintext\nExecution failed for task ':android:compileDebugJavaWithJavac'.\n> Could not resolve all files for configuration ':android:androidJdkImage'.\n   > Failed to transform core-for-system-modules.jar to match attributes {artifactType=_internal_android_jdk_image, org.gradle.libraryelements=jar, org.gradle.usage=java-runtime}.\n      > Execution failed for JdkImageTransform: C:\\Users\\djack\\AppData\\Local\\Android\\Sdk\\platforms\\android-34\\core-for-system-modules.jar.\n         > Error while executing process D:\\Program Files\\Android Studio\\jbr\\bin\\jlink.exe with arguments {--module-path C:\\Users\\djack\\.gradle\\caches\\8.1\n0.1\\transforms-3\\files-3.1\\c1b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3b3",
+    "timestamp": "2025-03-12T15:48:32.399675"
+  },
+  {
+    "post_id": 79048749,
+    "title": "VSCode Zen Mode: Extend Editor Width (Remove Side Margins)",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:48:39.666055"
+  },
+  {
+    "post_id": 79049234,
+    "title": "Unable to access the props of fetched data with useQuery",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nundefined\n```",
+    "extraction_with_ocr": "```\nundefined\n```",
+    "timestamp": "2025-03-12T15:48:45.503409"
+  },
+  {
+    "post_id": 79049369,
+    "title": "Custom-shaped and borderless window in Avalonia UI",
+    "llm": "gpt",
+    "extraction_without_ocr": "```xml\nBackground=\"Transparent\"\nTransparencyBackgroundFallback=\"Transparent\"\nExtendClientAreaToDecorationsHint=\"True\"\nExtendClientAreaChromeHints=\"NoChrome\"\nExtendClientAreaTitleBarHeightHint=\"-1\"\nSystemDecorations=\"None\"\nBorderBrush=\"Transparent\"\nBorderThickness=\"0\">\n```",
+    "extraction_with_ocr": "```xml\nBackground=\"Transparent\"\nTransparencyBackgroundFallback=\"Transparent\"\nExtendClientAreaToDecorationsHint=\"True\"\nExtendClientAreaChromeHints=\"NoChrome\"\nExtendClientAreaTitleBarHeightHint=\"-1\"\nSystemDecorations=\"None\"\nBorderBrush=\"Transparent\"\nBorderThickness=\"0\">\n```",
+    "timestamp": "2025-03-12T15:48:51.441699"
+  },
+  {
+    "post_id": 79049633,
+    "title": "how to use formatjs plugin in rspack&#39;s swc loader",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nERROR in ./web/javascripts/christmas/index.js\nModule build failed:\nCannot compile plugin binary\n\nWebAssembly translation error: Error when converting wat: expected `(`\n --> <anon>:1:1\n1 | \"use strict\";\n  | ^\n```",
+    "extraction_with_ocr": "```\nERROR in ./web/javascripts/christmas/index.js\nModule build failed:\nCannot compile plugin binary\n\nWebAssembly translation error: Error when converting wat: expected `(`\n --> <anon>:1:1\n1 | \"use strict\";\n  | ^\n```",
+    "timestamp": "2025-03-12T15:49:07.826174"
+  },
+  {
+    "post_id": 79049664,
+    "title": "When I delete data on Swagger I&#39;m getting DataIntegrityViolationException",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\n\"stackTrace\": \"org.springframework.dao.DataIntegrityViolationException: could not delete: [com.cloud.atlas.domain.Permission#100]; SQL [UPDATE permission SET is_deleted = true WHERE id=?]; nested exception is org.hibernate.exception.DataException: could not delete: [com.cloud.atlas.domain.Permission#100]\n```",
+    "extraction_with_ocr": "```plaintext\n\"stackTrace\": \"org.springframework.dao.DataIntegrityViolationException: could not delete: [com.cloud.atlas.domain.Permission#100]; SQL [UPDATE permission SET is_deleted = true WHERE id=?]; nested exception is org.hibernate.exception.DataException: could not delete: [com.cloud.atlas.domain.Permission#100]\n```",
+    "timestamp": "2025-03-12T15:49:16.428860"
+  },
+  {
+    "post_id": 79050210,
+    "title": "Azure DevOps. Can&#39;t trigger a pipeline in Repo A when a commit is done in repo B",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nCould not queue the build because there were validation errors or warnings. Checkout of repository is not supported. Only 'self' and 'none' are supported. Checkout of multiple repositories is not supported.\n```",
+    "extraction_with_ocr": "```\nCould not queue the build because there were validation errors or warnings. Checkout of repository [...] is not supported. Only 'self' and 'none' are supported. Checkout of multiple repositories is not supported.\n```",
+    "timestamp": "2025-03-12T15:49:22.265223"
+  },
+  {
+    "post_id": 79050338,
+    "title": "Which setting autocompletes python code in VSCode",
+    "llm": "gpt",
+    "extraction_without_ocr": "```python\nsuper().__init__(id, name)\n```",
+    "extraction_with_ocr": "```python\nsuper().__init__(id, name)\n```",
+    "timestamp": "2025-03-12T15:49:26.054220"
+  },
+  {
+    "post_id": 79050514,
+    "title": "Getting &quot;Maximum call stack size exceeded&quot; error after migration to ant-design/charts v.2.2.1 and using {renderer: new SVGRenderer()} in chart config",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nMaximum call stack size exceeded\nRangeError: Maximum call stack size exceeded\n    at http://localhost:3002/soft/static/js/bundle.js:175873:27\n    at Array.forEach (<anonymous>)\n    at processConfig (http://localhost:3002/soft/static/js/bundle.js:175873:10)\n    at http://localhost:3002/soft/static/js/bundle.js:175892:11\n    at Array.forEach (<anonymous>)\n    at processConfig (http://localhost:3002/soft/static/js/bundle.js:175873:10)\n    at http://localhost:3002/soft/static/js/bundle.js:175892:11\n    at Array.forEach (<anonymous>)\n    at processConfig (http://localhost:3002/soft/static/js/bundle.js:175873:10)\n    at http://localhost:3002/soft/static/js/bundle.js:175892:11\n\nUncaught RangeError: Maximum call stack size exceeded\n    at useChart.js:70:1\n    at Array.forEach (<anonymous>)\n    at processConfig (useChart.js:70:1)\n    at useChart.js:89:1\n    at Array.forEach (<anonymous>)\n    at processConfig (useChart.js:70:1)\n    at useChart.js:89:1\n```",
+    "extraction_with_ocr": "```plaintext\nMaximum call stack size exceeded\nRangeError: Maximum call stack size exceeded\n    at http://localhost:3002/soft/static/js/bundle.js:175873:27\n    at Array.forEach (<anonymous>)\n    at processConfig (http://localhost:3002/soft/static/js/bundle.js:175873:10)\n    at http://localhost:3002/soft/static/js/bundle.js:175892:11\n    at Array.forEach (<anonymous>)\n    at processConfig (http://localhost:3002/soft/static/js/bundle.js:175873:10)\n    at http://localhost:3002/soft/static/js/bundle.js:175892:11\n    at Array.forEach (<anonymous>)\n    at processConfig (http://localhost:3002/soft/static/js/bundle.js:175873:10)\n    at http://localhost:3002/soft/static/js/bundle.js:175892:11\n\nUncaught RangeError: Maximum call stack size exceeded\n    at useChart.js:70:1\n    at Array.forEach (<anonymous>)\n    at processConfig (useChart.js:70:1)\n    at useChart.js:89:1\n    at Array.forEach (<anonymous>)\n    at processConfig (useChart.js:70:1)\n    at useChart.js:89:1\n    at Array.forEach (<anonymous>)\n    at processConfig (useChart.js:70:1)\n    at useChart.js:89:1\n```",
+    "timestamp": "2025-03-12T15:49:45.920138"
+  },
+  {
+    "post_id": 79077951,
+    "title": "Class is in another directory - returns 0 tests",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nRan 0 tests in 0.000s\n\nOK\n```",
+    "extraction_with_ocr": "```plaintext\nRan 0 tests in 0.000s\n\nOK\n```",
+    "timestamp": "2025-03-12T15:49:51.127860"
+  },
+  {
+    "post_id": 79078611,
+    "title": "How do I use Pandoc to convert Latex to HTML such that the source code snippets inside Latex keep syntax highlighting in HTML?",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "```\nvoid main()\n{\n    print(\"I need help!\");\n}\n```",
+    "timestamp": "2025-03-12T15:49:54.521382"
+  },
+  {
+    "post_id": 79078823,
+    "title": "LangGraph Error - Invalid Tool Calls when using AzureChatOpenAI",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nInvalid Tool Calls:\n  python (call_dIYlTQhlfwAkyR3Y7UuIZIvP)\n  Call ID: call_dIYlTQhlfwAkyR3Y7UuIZIvP\n  Error: Function python arguments:\n\nconst { add, multiply } = require('./local_tool');\n\nconst result = multiply({ a: add({ a: 3, b: 4 }), b: 2 });\n\nconsole.log(result);\n\nare not valid JSON. Received JSONDecodeError Expecting value: line 1 column 1 (char 0)\n  Args:\n  const { add, multiply } = require('./local_tool');\n\nconst result = multiply({ a: add({ a: 3, b: 4 }), b: 2 });\n\nconsole.log(result);\n```",
+    "extraction_with_ocr": "```\nInvalid Tool Calls:\n  python (call_dIYlTQhlfwAkyR3Y7UuIZIvP)\n  Call ID: call_dIYlTQhlfwAkyR3Y7UuIZIvP\n  Error: Function python arguments:\n\nconst { add, multiply } = require('./local_tool');\n\nconst result = multiply({ a: add({ a: 3, b: 4 }), b: 2 });\n\nconsole.log(result);\n\nare not valid JSON. Received JSONDecodeError Expecting value: line 1 column 1 (char 0)\n  Args:\n  const { add, multiply } = require('./local_tool');\n\nconst result = multiply({ a: add({ a: 3, b: 4 }), b: 2 });\n\nconsole.log(result);\n```",
+    "timestamp": "2025-03-12T15:50:03.634157"
+  },
+  {
+    "post_id": 79079438,
+    "title": "Get VSCode to recognize aliases",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nCannot find module '@store' or its corresponding type declarations. ts(2307)\n```\n\n```typescript\nimport { useAppSelector } from \"@store\";\n```",
+    "extraction_with_ocr": "```plaintext\nCannot find module '@store' or its corresponding type declarations. ts(2307)\n\nimport { useAppSelector } from \"@store\";\n```",
+    "timestamp": "2025-03-12T15:50:07.422457"
+  },
+  {
+    "post_id": 79079487,
+    "title": "OpenAPI generates AdditionalProperties field twice",
+    "llm": "gpt",
+    "extraction_without_ocr": "```json\n\"additionalProperties\": true\n```\n\n```json\n\"additionalProperties\": {\n    \"type\": \"object\",\n    \"nullable\": true,\n    \"additionalProperties\": {}\n}\n```",
+    "extraction_with_ocr": "```json\n\"additionalProperties\": {\n    \"nullable\": true\n},\n\n\"additionalProperties\": {\n    \"type\": \"object\",\n    \"nullable\": true,\n    \"additionalProperties\": {}\n}\n```",
+    "timestamp": "2025-03-12T15:50:11.109763"
+  },
+  {
+    "post_id": 79079562,
+    "title": "electron-updater stops on checking for update",
+    "llm": "gpt",
+    "extraction_without_ocr": "```javascript\nthis._logger.info(\"Checking for update\")\n```",
+    "extraction_with_ocr": "```plaintext\nthis._logger.info(\"Checking for update\")\n```",
+    "timestamp": "2025-03-12T15:50:16.846453"
+  },
+  {
+    "post_id": 79079676,
+    "title": "Fullcalendar Angular. How is the eventContent Angular template actually rendered in FullCalendar?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```typescript\n@ContentChild('eventContent', { static: true }) eventContent: CalendarTemplateRef<'eventContent'>;\n```",
+    "extraction_with_ocr": "```typescript\n@ContentChild('eventContent', { static: true }) eventContent: CalendarTemplateRef<'eventContent'>;\n```",
+    "timestamp": "2025-03-12T15:50:27.184123"
+  },
+  {
+    "post_id": 79081114,
+    "title": "PhpStorm is marking variables given by Controller in View as not declared in MCV application",
+    "llm": "gpt",
+    "extraction_without_ocr": "```php\n<?= $form->field($model, attribute: 'password')->passwordInput(['autofocus' => true]) ?>\n```",
+    "extraction_with_ocr": "```php\n<?= $form->field($model, attribute: 'password')->passwordInput(['autofocus' => true]) ?>\n```",
+    "timestamp": "2025-03-12T15:50:31.283239"
+  },
+  {
+    "post_id": 79081164,
+    "title": "Copilot inline chat icon shifts the whole body of the codefile to the right. How do I prevent the shift?",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:50:39.051818"
+  },
+  {
+    "post_id": 79081171,
+    "title": "Where can the logs reported by FirebaseCrashlytics.getInstance().log() and logEvent(...) be seen in the console?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```java\nFirebaseCrashlytics.getInstance().log(\"custom crash log111111\");\n\nFirebaseAnalytics.getInstance(getApplicationContext()).logEvent(\"MyCustom\", bundle);\n```",
+    "extraction_with_ocr": "```java\nFirebaseCrashlytics.getInstance().log(\"custom crash log111111\");\n\nFirebaseAnalytics.getInstance(getApplicationContext()).logEvent(\"MyCustom\", bundle);\n```",
+    "timestamp": "2025-03-12T15:50:44.960133"
+  },
+  {
+    "post_id": 79082901,
+    "title": "Private variables giving the warning not in use try removing the variable",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nString _name;\n```\n\n```\nThe value of the field '_name' isn't used.\nTry removing the field, or using it.\n```",
+    "extraction_with_ocr": "```plaintext\nThe value of the field '_name' isn't used.\nTry removing the field, or using it.\n```",
+    "timestamp": "2025-03-12T15:50:50.228249"
+  },
+  {
+    "post_id": 79083164,
+    "title": "How can I change the text using the new ContentChild signal API?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```typescript\nthis.headerSubtitleContent()?.nativeElement.textContent = 'Enjoy a customized experience!';\n```",
+    "extraction_with_ocr": "```typescript\nthis.headerSubtitleContent()?.nativeElement.textContent = 'Enjoy a customized experience!';\n```",
+    "timestamp": "2025-03-12T15:50:55.603103"
+  },
+  {
+    "post_id": 79083932,
+    "title": "viewModel on Kotlin Multiplatform?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```kotlin\nimport androidx.lifecycle.viewmodel.compose.viewModel\n```\n\n```\nUnresolved reference: viewModel\n```",
+    "extraction_with_ocr": "```kotlin\nimport androidx.lifecycle.viewmodel.compose.viewModel\n```\n\n```\nUnresolved reference: viewModel\n```",
+    "timestamp": "2025-03-12T15:51:00.823773"
+  },
+  {
+    "post_id": 79084406,
+    "title": "Trying to Stack 2 Columns into one Excel",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\n#VALUE!\n#VALUE!\n#VALUE!\n#VALUE!\n#VALUE!\n#VALUE!\n#VALUE!\n#VALUE!\n#VALUE!\n#VALUE!\n#VALUE!\n#SPILL!\n```",
+    "extraction_with_ocr": "```\n=IF(P2<>\"\",P2,INDEX($R$2:$R$5000,ROW()-COUNTA($P$2:$P$5000)))\n```\n\n```\n#VALUE!\n#VALUE!\n#VALUE!\n#VALUE!\n#VALUE!\n#VALUE!\n#VALUE!\n#VALUE!\n#VALUE!\n#VALUE!\n#SPILL!\n```",
+    "timestamp": "2025-03-12T15:51:06.090154"
+  },
+  {
+    "post_id": 79084609,
+    "title": "riverpod_generator does not recognize types generated by Drift as parameters",
+    "llm": "gpt",
+    "extraction_without_ocr": "```dart\nInvalidType todo,\n```\n\n```plaintext\nUndefined class 'InvalidType'.\n```",
+    "extraction_with_ocr": "```\nInvalidType todo,\n```\n\n```\nUndefined class 'InvalidType'. (Documentation)\n\nTry changing the name to the name of an existing class, or creating a class with the name 'InvalidType'.\n```",
+    "timestamp": "2025-03-12T15:51:09.889714"
+  },
+  {
+    "post_id": 79084966,
+    "title": "Problem after updating to geoflutterfire_plus package",
+    "llm": "gpt",
+    "extraction_without_ocr": "```dart\nCollectionReference<Map<String, dynamic>> collectionReference = firestore\n    .collection(collectionRoute)\n    .where(serviceCode, isEqualTo: true)\n    .where('isActive', isEqualTo: true)\n    .where('isVerified', isEqualTo: true);\n```\n\n```\nA value of type 'Query<Map<String, dynamic>>' can't be assigned to a variable of type 'CollectionReference<Map<String, dynamic>>'.\nTry changing the type of the variable, or casting the right-hand type to 'CollectionReference<Map<String, dynamic>>'.\n```",
+    "extraction_with_ocr": "```dart\nCollectionReference<Map<String, dynamic>> collectionReference = firestore\n    .collection(collectionRoute)\n    .where(serviceCode, isEqualTo: true)\n    .where('isActive', isEqualTo: true)\n    .where('isVerified', isEqualTo: true);\n```\n\n```\nA value of type 'Query<Map<String, dynamic>>' can't be assigned to a variable of type 'CollectionReference<Map<String, dynamic>>'.\nTry changing the type of the variable, or casting the right-hand type to 'CollectionReference<Map<String, dynamic>>'.\n```",
+    "timestamp": "2025-03-12T15:51:21.254273"
+  },
+  {
+    "post_id": 79085456,
+    "title": "VS Code fails to run script which has quotes in its filename",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:51:27.705951"
+  },
+  {
+    "post_id": 79085458,
+    "title": "Accesssing Keycloak plugin property does not provide the right value",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nauthenticated: true\n\nKeycloak authenticated false\n```",
+    "extraction_with_ocr": "```\nauthenticated: true\n```\n\n```\n$keycloak authenticated false\n```",
+    "timestamp": "2025-03-12T15:51:33.233740"
+  },
+  {
+    "post_id": 79085798,
+    "title": "Simplifying VSCode PyTest output",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "```plaintext\nc:\\local_code\\repos\\...\\tests\\test_temp.py::test_string_equality failed: def test_string_equality\nc:\\local_code\\repos\\...\\tests\\test_temp.py::test_string_equality failed: def test_string_equality\n```\n\n```plaintext\nFAILED tests\\test_temp.py::test_string_equality - AssertionError: assert 'hel...\n```",
+    "timestamp": "2025-03-12T15:51:40.960426"
+  },
+  {
+    "post_id": 79085902,
+    "title": "pymysql use commit still can&#39;t insert",
+    "llm": "gpt",
+    "extraction_without_ocr": "```python\nconn_test = pymysql.connect(host='localhost', port=3306, user='root', passwd='********', charset='utf8', db='pythonTest', autocommit=True)\n\nsql_insert = \"\"\"\n    INSERT INTO pythonTest.Members (ID, Name, Height, Weight) VALUES\n    (1, 'Tony', 170, 56),\n    (2, 'Dawn', 167, 40),\n    (3, 'Jack', 185, 83)\n\"\"\"\n\ntry:\n    cursor.execute(sql_insert)\n    conn_test.commit()\nexcept Exception as e:\n    conn_test.rollback()\n    print(e);\n```",
+    "extraction_with_ocr": "```python\nconn_test = pymysql.connect(host='localhost', port=3306, user='root', passwd='****', charset='utf8', db='pythonTest', autocommit=True)\n\nsql_insert = \"\"\"\n    INSERT INTO pythonTest.Members (ID, Name, Height, Weight) VALUES\n    (1, 'Tony', 170, 56),\n    (2, 'Dawn', 167, 40),\n    (3, 'Jack', 185, 83)\n\"\"\"\n\ntry:\n    cursor.execute(sql_insert)\n    conn_test.commit()\nexcept Exception as e:\n    conn_test.rollback()\n    print(e);\n```",
+    "timestamp": "2025-03-12T15:51:49.617097"
+  },
+  {
+    "post_id": 79087062,
+    "title": "SquareSpace Section Auto-Expand to Footer",
+    "llm": "gpt",
+    "extraction_without_ocr": "```css\nsection.page-section.full-bleed-section.layout-engine-section.background-width--full-bleed.section-height--content\n```\n\n```css\nmin-height: 16vh;\n```",
+    "extraction_with_ocr": "```css\nsection.page-section.full-bleed-section.layout-engine-section.background-width--full-bleed.section-height--content\n```\n\n```css\nmin-height: 16vh;\n```",
+    "timestamp": "2025-03-12T15:51:57.300348"
+  },
+  {
+    "post_id": 79087096,
+    "title": "Data Output from PostgreSQL query made in pgAdmin stacked vertically",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "```sql\nSELECT * FROM public.normative_documents\nORDER BY id ASC\n```\n\n```\nid\n[PK] integer\ncontent\ntext\ndocument_type\ncharacter varying (50)\ncode\ncharacter varying (20)\ntitle\ncharacter varying (255)\nauthors\ntext[]\npublisher\ntext\npublication_date\ndate\nsample_matrices_extracted\n```",
+    "timestamp": "2025-03-12T15:52:04.569924"
+  },
+  {
+    "post_id": 79087767,
+    "title": "Use typealias defined inside generic class in method signature",
+    "llm": "gpt",
+    "extraction_without_ocr": "```python\ndef a(self, x: X) -> Z:\n```",
+    "extraction_with_ocr": "```python\ndef a(self, x: X) -> Z:\n```",
+    "timestamp": "2025-03-12T15:52:08.883671"
+  },
+  {
+    "post_id": 79087874,
+    "title": "Error Reading pubspec.yaml File in Flutter Project",
+    "llm": "gpt",
+    "extraction_without_ocr": "```dart\nfinal filePath = 'pubspec.yaml'; // Use the relative path\nprint('Current directory: $currentDir');\n```\n\n```\nflutter: Current directory: /\nflutter: pubspec.yaml file not found at: pubspec.yaml\n```",
+    "extraction_with_ocr": "```dart\nfinal filePath = 'pubspec.yaml'; // Use the relative path\nprint('Current directory: $currentDir');\n```\n\n```\nflutter: Current directory: /\nflutter: pubspec.yaml file not found at: pubspec.yaml\n```",
+    "timestamp": "2025-03-12T15:52:17.487268"
+  },
+  {
+    "post_id": 79088829,
+    "title": "Snowflake cli error Invalid connection configuration. 250001: 250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nError\nInvalid connection configuration. 250001: 250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting\n```",
+    "extraction_with_ocr": "```\nError\nInvalid connection configuration. 250001: 250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting\n```",
+    "timestamp": "2025-03-12T15:52:26.384358"
+  },
+  {
+    "post_id": 79089559,
+    "title": "Error: SAP DBTech JDBC: [2048]: column store error: search table error: [34023] Instantiation of calculation model failed; exception 306108",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nError: SAP DBTech JDBC: [2048]: column store error: search table error: [34023] Instantiation of calculation model failed;exception 306108: Query entries cannot be parsed. Failed to convert expression \"\"DATETO\" >=  AND >= \"DATEFROM\" AND \" to QueryEntries at node PROJ_Q1. Reason: Evaluator: syntax error in expression string;expected TK_ID,\"DATETO\" >= [here]AND >= \"DATEFROM\" AND '\n```",
+    "extraction_with_ocr": "```\nError: SAP DBTech JDBC: [2048]: column store error: search table error: [34023] Instantiation of calculation model failed;exception 306108: Query entries cannot be parsed. Failed to convert expression \"\"DATETO\" >=  AND >= \"DATEFROM\" AND \" to QueryEntries at node PROJ_Q1. Reason: Evaluator: syntax error in expression string;expected TK_ID,\"DATETO\" >= [here]AND >= \"DATEFROM\" AND '\n```",
+    "timestamp": "2025-03-12T15:52:32.939967"
+  },
+  {
+    "post_id": 79089625,
+    "title": "iceberg 1.1.0 set write.distribution-mode to none but does not take effect",
+    "llm": "gpt",
+    "extraction_without_ocr": "```json\n\"write.distribution-mode\" : \"none\",\n```",
+    "extraction_with_ocr": "```json\n\"write.distribution-mode\" : \"none\",\n```",
+    "timestamp": "2025-03-12T15:52:38.365511"
+  },
+  {
+    "post_id": 79089650,
+    "title": "Laravel Broadcasting not firing on the Job Queue",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:52:44.459135"
+  },
+  {
+    "post_id": 79090291,
+    "title": "Access Violation exception when calling DLL function loaded with boost import_alias",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nreturn (*f_)(static_cast<Args&&>(args)...);\n```\n\n```plaintext\nException has occurred: W32/0xC0000005\nUnhandled exception at 0x00007FF77B713633 in tmp.exe: 0xC0000005: Access violation reading location 0xFFFFFFFFFFFFFFFF.\n```",
+    "extraction_with_ocr": "```cpp\nreturn (*f_)(static_cast<Args&&>(args)...);\n```\n\n```\nException has occurred: W32/0xC0000005\nUnhandled exception at 0x00007FF77B713633 in tmp.exe: 0xC0000005: Access violation reading location 0xFFFFFFFFFFFFFFFF.\n```",
+    "timestamp": "2025-03-12T15:52:51.496218"
+  },
+  {
+    "post_id": 79090584,
+    "title": "Blazor WASM OIDC authentication with Google fail",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\n{\n    \"error\": \"invalid_request\",\n    \"error_description\": \"client_secret is missing.\"\n}\n```",
+    "extraction_with_ocr": "```\n{\n    \"error\": \"invalid_request\",\n    \"error_description\": \"client_secret is missing.\"\n}\n```",
+    "timestamp": "2025-03-12T15:52:56.321307"
+  },
+  {
+    "post_id": 79091650,
+    "title": "How to &quot;put&quot; LocalDate into SQLite DataBase",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nNone of the following functions can be called with the arguments supplied.\nput(String!, Boolean) defined in android.content.ContentValues\nput(String!, Byte) defined in android.content.ContentValues\nput(String!, ByteArray) defined in android.content.ContentValues\nput(String!, Double) defined in android.content.ContentValues\nput(String!, Float) defined in android.content.ContentValues\nput(String!, Int) defined in android.content.ContentValues\nput(String!, Long) defined in android.content.ContentValues\nput(String!, Short) defined in android.content.ContentValues\nput(String!, String) defined in android.content.ContentValues\n```",
+    "extraction_with_ocr": "```\nNone of the following functions can be called with the arguments supplied.\nput(String!, Boolean) defined in android.content.ContentValues\nput(String!, Byte) defined in android.content.ContentValues\nput(String!, ByteArray) defined in android.content.ContentValues\nput(String!, Double) defined in android.content.ContentValues\nput(String!, Float) defined in android.content.ContentValues\nput(String!, Int) defined in android.content.ContentValues\nput(String!, Long) defined in android.content.ContentValues\nput(String!, Short) defined in android.content.ContentValues\nput(String!, String) defined in android.content.ContentValues\n```",
+    "timestamp": "2025-03-12T15:53:02.880943"
+  },
+  {
+    "post_id": 79093513,
+    "title": "Kendo UI for Angular - filterable DropDownList - Search icon misaligned",
+    "llm": "gpt",
+    "extraction_without_ocr": "```html\n<kendo-popup class=\"k-animation-container k-animation-container-shown\" dir=\"ltr\" role=\"region\" aria-label=\"Options list\" style=\"left: 240px; top: 269px; z-index: 2; min-width: 360px; width: 360px; height: auto;\">\n```",
+    "extraction_with_ocr": "```html\n<kendo-popup class=\"k-animation-container k-animation-container-shown\" dir=\"ltr\" role=\"region\" aria-label=\"Options list\" style=\"left: 240px; top: 269px; z-index: 2; min-width: 360px; width: 360px; height: auto;\">\n```",
+    "timestamp": "2025-03-12T15:53:10.761038"
+  },
+  {
+    "post_id": 79096695,
+    "title": "Style Props of Button component doesn&#39;t apply in screen.debug",
+    "llm": "gpt",
+    "extraction_without_ocr": "```html\n<button\n  type=\"button\"\n  class=\"chakra-button css-4k74iw\"\n>\n  sample red box</button>\n```",
+    "extraction_with_ocr": "```html\n<button\n  type=\"button\"\n  class=\"chakra-button css-4k74iw\"\n>\n  sample red box</button>\n```",
+    "timestamp": "2025-03-12T15:53:15.026918"
+  },
+  {
+    "post_id": 79097264,
+    "title": "Correctly tear down process when using pytest with multiprocessing",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:53:21.080018"
+  },
+  {
+    "post_id": 79099839,
+    "title": "JQ Cannot iterate over null",
+    "llm": "gpt",
+    "extraction_without_ocr": "```jq\njq: error (at /tmp/data.json:40): Cannot iterate over null (null) undefined\n```",
+    "extraction_with_ocr": "```jq\njq: error (at /tmp/data.json:40): Cannot iterate over null (null) undefined\n```",
+    "timestamp": "2025-03-12T15:53:27.824746"
+  },
+  {
+    "post_id": 79101395,
+    "title": "iOS App crashing due to Camera permission",
+    "llm": "gpt",
+    "extraction_without_ocr": "```xml\n<key>NSCameraUsageDescription</key>\n<string>We need access to your camera to scan QR codes.</string>\n```",
+    "extraction_with_ocr": "```xml\n<key>NSCameraUsageDescription</key>\n<string>We need access to your camera to scan QR codes.</string>\n```",
+    "timestamp": "2025-03-12T15:53:35.082070"
+  },
+  {
+    "post_id": 79106027,
+    "title": "Quarto tbl-cap-location not going to top with gtsummary",
+    "llm": "gpt",
+    "extraction_without_ocr": "```r\ntbl <- mtcars %>%\n  select(mpg, cyl, disp) %>%\n  tbl_summary() |>\n  modify_caption(\"This is a test\")\n```",
+    "extraction_with_ocr": "```r\ntbl <- mtcars %>%\n  select(mpg, cyl, disp) %>%\n  tbl_summary() |>\n  modify_caption(\"This is a test\")\n```",
+    "timestamp": "2025-03-12T15:53:45.542113"
+  },
+  {
+    "post_id": 79107149,
+    "title": "PyLance incorrectly flagging sklearn mean_squared_error function as deprecated",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nThe function \"mean_squared_error\" is deprecated Pylance\n\nsquared : bool, default=True\n    If True returns MSE value, if False returns RMSE value.\n\n    deprecated\n        1.4 squared is deprecated in 1.4 and will be removed in 1.6. Use :func:`sklearn.metrics.root_mean_squared_error` instead to calculate the root mean squared error.\n```",
+    "extraction_with_ocr": "```plaintext\nThe function \"mean_squared_error\" is deprecated Pylance\n```",
+    "timestamp": "2025-03-12T15:53:53.836076"
+  },
+  {
+    "post_id": 79108863,
+    "title": "Azure App Service Windows: Error UNKNOWN starting Next.JS Standalone",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:54:00.939438"
+  },
+  {
+    "post_id": 79114567,
+    "title": "Electron store ES6 modular import, cannot initialise store object",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nUnresolved function or method get()\n```",
+    "extraction_with_ocr": "```plaintext\nconsole.log(store.get(args.key));\n```\n```plaintext\nUnresolved function or method get()\n```",
+    "timestamp": "2025-03-12T15:54:04.916369"
+  },
+  {
+    "post_id": 79114987,
+    "title": "Cannot change the syntax color of punctuation in a theme",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nforeground: #666666\ntextmate scopes\nmeta.block.c\nmeta.body.switch.c\nmeta.block.switch.c\nmeta.block.c\nsource.c\nforeground\n{ \"foreground\": \"#666666\" }\n```",
+    "extraction_with_ocr": "```\nforeground: #666666\ntextmate scopes\nmeta.block.c\nmeta.body.switch.c\nmeta.block.switch.c\nmeta.block.c\nsource.c\nforeground\n{ \"foreground\": \"#666666\" }\n```",
+    "timestamp": "2025-03-12T15:54:09.446913"
+  },
+  {
+    "post_id": 79115093,
+    "title": "e.getVersion is not a function BRAINTREE / incompatible version",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nmessage: \"Client (version 3.103.0) and Data Collector (version 3.109.0) components must be from the same SDK version.\"\n\nTypeError: e.getVersion is not a function\n    at Object.verify (data-collector.min.js:1:27637)\n    at Object.<anonymous> (data-collector.min.js:1:11122)\n    at Object.create (data-collector.min.js:1:2625)\n    at X (usePaymentHook.js:613:38)\n    at DropIn_jsx:37:9\n    at dropin.min.js:1:11179\n```",
+    "extraction_with_ocr": "```\nmessage: \"Client (version 3.103.0) and Data Collector (version 3.109.0) components must be from the same SDK version.\"\n\nTypeError: e.getVersion is not a function\n    at Object.verify (data-collector.min.js:1:27637)\n    at Object.<anonymous> (data-collector.min.js:1:11122)\n    at Object.create (data-collector.min.js:1:2625)\n    at X (usePaymentHook.js:613:38)\n    at DropIn_jsx:37:9\n    at dropin.min.js:1:11179\n```",
+    "timestamp": "2025-03-12T15:54:16.568394"
+  },
+  {
+    "post_id": 79115487,
+    "title": "WebStorm: Set the language of document tips",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:54:24.042860"
+  },
+  {
+    "post_id": 79116172,
+    "title": "Hydration failed: Problem with NextJS (v15) and ChakraUI when using components",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nHydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used\n```",
+    "extraction_with_ocr": "```\nHydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used\n```",
+    "timestamp": "2025-03-12T15:54:31.826556"
+  },
+  {
+    "post_id": 79117563,
+    "title": "C# Azure Functions Project cannot load/find any assemblies",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nError opening file. The system cannot find the file specified (2).\n\nError: At least one required implicit or forwarded dependency was not found.\n```",
+    "extraction_with_ocr": "```\nError opening file. The system cannot find the file specified (2).\n\nError: At least one required implicit or forwarded dependency was not found.\n```",
+    "timestamp": "2025-03-12T15:54:47.798380"
+  },
+  {
+    "post_id": 79118138,
+    "title": "Android Studio : Fix all &#39;xxx&#39; problems in file",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nFix all 'Local variable or parameter can be 'final'' problems in file\n```",
+    "extraction_with_ocr": "```\nFix all 'Local variable or parameter can be 'final'' problems in file\n```",
+    "timestamp": "2025-03-12T15:54:54.866152"
+  },
+  {
+    "post_id": 79118152,
+    "title": "Parent :host styles affects to :host styles of child",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\n._nghost-ng-c2749519363 {\n    position: absolute;\n    top: 0;\n    left: 100%;\n    width: 500px;\n    height: 100vh;\n    background-color: var(--light-100);\n    box-shadow: inset 6px 0 18px 0 rgba(0, 0, 0, 0.06);\n}\n\n._nghost-ng-c1476278778 {\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    gap: 8px;\n    position: relative;\n    height: 100%;\n    width: var(--left-menu-width);\n    padding: 12px 0 24px 0;\n    background-color: var(--light-100);\n    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.06);\n}\n```",
+    "extraction_with_ocr": "```scss\n._nghost-c2749519363 {\n    position: absolute;\n    top: 0;\n    left: 100%;\n    width: 500px;\n    height: 100vh;\n    background-color: var(--light-100);\n    box-shadow: inset 6px 0 18px 0 rgba(0, 0, 0, 0.06);\n}\n\n._nghost-c1476278778 {\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    gap: 8px;\n    position: relative;\n    height: 100%;\n    width: var(--left-menu-width);\n    padding: 12px 0 24px 0;\n    background-color: var(--light-100);\n    box-shadow: 6px 0 18px 0 rgba(0, 0, 0, 0.06);\n}\n```",
+    "timestamp": "2025-03-12T15:55:06.186110"
+  },
+  {
+    "post_id": 79118274,
+    "title": "Terminal is taking hours to install Next.js what to do?",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:55:13.093630"
+  },
+  {
+    "post_id": 79118490,
+    "title": "I can&#39;t connect ASP.NET Web API with .NET Maui",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\ncurl -X 'GET' \\\n  'https://localhost:7183/api/Patients/Test' \\\n  -H 'accept: text/plain'\n```\n\n```plaintext\nhttps://localhost:7183/api/Patients/Test\n```",
+    "extraction_with_ocr": "```plaintext\ncurl -X 'GET' \\\n  'https://localhost:7183/api/Patients/Test' \\\n  -H 'accept: text/plain'\n```\n\n```plaintext\nhttps://localhost:7183/api/Patients/Test\n```",
+    "timestamp": "2025-03-12T15:55:19.544824"
+  },
+  {
+    "post_id": 79118826,
+    "title": "VSCode throws error as if $props variable not accessible in HTML, in Svelte 5 component",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nlet { srcFile } = $props();\n\nType 'unknown' is not assignable to type 'string | null | undefined'. js(2322)\n\n<img src={srcFile} class=\"contained_photo\" alt=\"alt\" />\n```",
+    "extraction_with_ocr": "```\nType 'unknown' is not assignable to type 'string | null | undefined'. js(2322)\n```\n\n```\n<img src={srcFile} class=\"contained_photo\" alt=\"alt\" />\n```",
+    "timestamp": "2025-03-12T15:55:24.765516"
+  },
+  {
+    "post_id": 79118843,
+    "title": "Unable to format the kafka topic data via pyspark",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\n|����A  FOO|\n|����A  BAR|\n|����A  SOO|\n|����A  ZOO|\n|����A  COO|\n```",
+    "extraction_with_ocr": "```\n|����A  FOO|\n|����A  BAR|\n|����A  SOO|\n|����A  ZOO|\n|����A  COO|\n```",
+    "timestamp": "2025-03-12T15:55:34.211312"
+  },
+  {
+    "post_id": 79118923,
+    "title": "jitbit/CsvExport in Blazor inserts &#187;&#191; to the first row, first column of file",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\n»;Directions,Leg,Leg Time,Trip,Trip Time\n```",
+    "extraction_with_ocr": "```\n»;Directions,Leg,Leg Time,Trip,Trip Time\n```",
+    "timestamp": "2025-03-12T15:55:38.896191"
+  },
+  {
+    "post_id": 79118958,
+    "title": "Second photo is not displaying",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nflutter: Meal: {time: Lunch, imageUrl: null, description: salmonn, name: Salmon, calories: 432}\nflutter: Image URL: null\n```",
+    "extraction_with_ocr": "```plaintext\nflutter: Meal: {time: Lunch, imageUrl: null, description: salmonn, name: Salmon, calories: 432}\nflutter: Image URL: null\n```",
+    "timestamp": "2025-03-12T15:55:48.729690"
+  },
+  {
+    "post_id": 79119961,
+    "title": "Chrome Extension: Refused to load script due to Content Security Policy (CSP) after no recent changes",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nRefused to load the script 'chrome-extension://8f7f4b16-3e48-4800-8463-f31d5b30ee64/assets/content-script-preamble.js.js' because it violates the following Content Security Policy directive: \"script-src 'self' 'wasm-unsafe-eval' 'inline-speculation-rules' http://localhost:* http://127.0.0.1:*\". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.\n\nchrome.runtime.getURL(\"assets/content-script-preamble.js.js\")\n```",
+    "extraction_with_ocr": "```plaintext\nRefused to load the script 'chrome-extension://8f7f4b16-3e48-4800-8463-f31d5b30ee64/assets/content-script-preamble.js.js' because it violates the following Content Security Policy directive: \"script-src 'self' 'wasm-unsafe-eval' 'inline-speculation-rules' http://localhost:* http://127.0.0.1:*\". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.\n\nchrome.runtime.getURL(\"assets/content-script-preamble.js.js\")\n```",
+    "timestamp": "2025-03-12T15:55:55.693514"
+  },
+  {
+    "post_id": 79120264,
+    "title": "Facebook Graph API: Unable to find the created A/B Test Campaign in console UI Facebook",
+    "llm": "gpt",
+    "extraction_without_ocr": "```json\n{\n    \"id\": \"1592692254711809\",\n    \"name\": \"Test Campaign A/B Test\",\n    \"type\": \"SPLIT_TEST\",\n    \"start_time\": \"2024-10-30T09:37:48+0000\",\n    \"end_time\": \"2024-11-28T09:37:48+0000\",\n    \"cells\": {\n        \"data\": [\n            {\n                \"id\": \"857802299841265\",\n                \"treatment_percentage\": 50,\n                \"campaigns\": {\n                    \"data\": [\n                        {\n                            \"id\": \"120212259846550726\"\n                        }\n                    ]\n                }\n            }\n        ]\n    }\n}\n```",
+    "extraction_with_ocr": "```json\n{\n    \"id\": \"1592692254711809\",\n    \"name\": \"Test Campaign A/B Test\",\n    \"type\": \"SPLIT_TEST\",\n    \"start_time\": \"2024-10-30T09:37:48+0000\",\n    \"end_time\": \"2024-11-28T09:37:48+0000\",\n    \"cells\": {\n        \"data\": [\n            {\n                \"id\": \"857802299841265\",\n                \"treatment_percentage\": 50,\n                \"campaigns\": {\n                    \"data\": [\n                        {\n                            \"id\": \"120212259846550726\"\n                        }\n                    ]\n                }\n            }\n        ]\n    }\n}\n```",
+    "timestamp": "2025-03-12T15:56:03.370403"
+  },
+  {
+    "post_id": 79120292,
+    "title": "Linux on Windows",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nCommand 'nvm' not found, did you mean:\nCommand 'node' not found, did you mean:\n```",
+    "extraction_with_ocr": "```plaintext\nCommand 'nvm' not found, did you mean:\n  command 'nvim' from snap nvim (v0.10.2)\n  command 'nsm' from snap nift (3.0.3)\n  command 'gvm' from snap gvm (1.1.0)\n  command 'nvme' from deb nvme-cli (2.8-1ubuntu0.1)\n  command 'nm' from deb binutils (2.41.50.20231214-1ubuntu1)\n  command 'lvm' from deb lvm2 (2.03.16-3ubuntu3.1)\n  command 'kvm' from deb qemu-system-x86 (1:8.2.2+ds-0ubuntu1.2)\nSee 'snap info <snapname>' for additional versions.\n@LAPTOP-LQIPNGM7:/mnt/c/Users/asus$ node -v\nCommand 'node' not found, did you mean:\n  command 'nodo' from snap nodo (master)\n  command 'code' from snap code (38d4f738)\nSee 'snap info <snapname>' for additional versions.\n```",
+    "timestamp": "2025-03-12T15:56:11.358030"
+  },
+  {
+    "post_id": 79120816,
+    "title": "Why Is Intellesense &amp; Colour Formatting Not Working In Some Files In VS",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:56:15.484550"
+  },
+  {
+    "post_id": 79120927,
+    "title": "Complex object not showing inner classes in shema",
+    "llm": "gpt",
+    "extraction_without_ocr": "```json\n{\n    \"IDFactura\": \"string\",\n    \"NombreRazonEmisor\": \"string\",\n    \"TipoRegistroSIF\": \"string\",\n    \"TipoFactura\": \"string\",\n    \"TipoRectificativa\": \"string\",\n    \"FacturasRectificadas\": \"string\",\n    \"FacturasSustituidas\": \"string\",\n    \"ImporteRectificacion\": \"string\",\n    \"FechaOperacion\": \"string\",\n    \"DescripcionOperacion\": \"string\",\n    \"FacturaSimplificadaArticulos7_2_1_3\": \"string\",\n    \"FacturaSinIdentifDestinatarioArticulo6_1_d\": \"string\",\n    \"Macrodata\": \"string\",\n    \"EmitidaPorTercerosODestinatario\": \"string\",\n    \"Tercero\": \"string\",\n    \"Destinatarios\": \"string\",\n    \"Cupon\": \"string\",\n    \"Desglose\": \"string\",\n    \"ImporteTotal\": \"string\",\n    \"EncadenamientoRegistroAnterior\": \"string\",\n    \"SistemaInformatico\": \"string\",\n    \"FechaGenRegistro\": \"string\",\n    \"HoraGenRegistro\": \"string\",\n    \"HusoHorarioGenRegistro\": \"string\",\n    \"NumRegistroAcuerdoFacturacion\": \"string\",\n    \"IdAcuerdoSistemaInformacion\": \"string\"\n}\n```",
+    "extraction_with_ocr": "```json\n{\n    \"IDFactura\": \"string\",\n    \"NombreRazonEmisor\": \"string\",\n    \"TipoRegistroSIF\": \"string\",\n    \"TipoFactura\": \"string\",\n    \"TipoRectificativa\": \"string\",\n    \"FacturasRectificadas\": \"string\",\n    \"FacturasSustituidas\": \"string\",\n    \"ImporteRectificacion\": \"string\",\n    \"FechaOperacion\": \"string\",\n    \"DescripcionOperacion\": \"string\",\n    \"FacturaSimplificadaArticulo7_2_1_3\": \"string\",\n    \"FacturaSinIdentifDestinatarioArticulo6_1_d\": \"string\",\n    \"Macrodata\": \"string\",\n    \"EmitidaPorTercerosODestinatario\": \"string\",\n    \"Tercero\": \"string\",\n    \"Destinatarios\": \"string\",\n    \"Cupon\": \"string\",\n    \"Desglose\": \"string\",\n    \"ImporteTotal\": \"string\",\n    \"EncadenamientoRegistroAnterior\": \"string\",\n    \"SistemaInformatico\": \"string\",\n    \"FechaGenRegistro\": \"string\",\n    \"HoraGenRegistro\": \"string\",\n    \"HusoHorarioGenRegistro\": \"string\",\n    \"NumRegistroAcuerdoFacturacion\": \"string\",\n    \"IdAcuerdoSistemaInformacion\": \"string\"\n}\n```",
+    "timestamp": "2025-03-12T15:56:38.179114"
+  },
+  {
+    "post_id": 79120956,
+    "title": "How to to expose elements for automation but not for accessibility in swift UIKit?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```swift\nview.accessibilityElements = [quoteTextView, newQuoteButton]\nview.automationElements = [imageView, quoteTextView, newQuoteButton]\n```",
+    "extraction_with_ocr": "```swift\nview.accessibilityElements = [quoteTextView, newQuoteButton]\nview.automationElements = [imageView, quoteTextView, newQuoteButton]\n```",
+    "timestamp": "2025-03-12T15:56:48.939763"
+  },
+  {
+    "post_id": 79120973,
+    "title": "How to exclude SwiftUI files from Unit Test code coverage?",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:56:52.010710"
+  },
+  {
+    "post_id": 79121278,
+    "title": "cannot use method fileTypeFromStream in aws lambda typescript handler",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nArgument of type 'StreamingBlobPayloadOutputTypes' is not assignable to parameter of type 'AnyWebByteStream'.\n  Type 'Readable & SdkStreamMixin' is not assignable to type 'AnyWebByteStream'.\n    Type 'Readable & SdkStreamMixin' is missing the following properties from type 'ReadableStream<Uint8Array>': locked, cancel, getReader, pipeThrough, and 3 more. ts(2345)\n```",
+    "extraction_with_ocr": "```plaintext\nArgument of type 'StreamingBlobPayloadOutputTypes' is not assignable to parameter of type 'AnyWebByteStream'.\n  Type 'Readable & SdkStreamMixin' is not assignable to type 'AnyWebByteStream'.\n    Type 'Readable & SdkStreamMixin' is missing the following properties from type 'ReadableStream<Uint8Array>': locked, cancel, getReader, pipeThrough, and 3 more. ts(2345)\n```",
+    "timestamp": "2025-03-12T15:57:01.127231"
+  },
+  {
+    "post_id": 79121381,
+    "title": "How to make TS check type any, when working with useState (React)?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\n(parameter) json: any\n```",
+    "extraction_with_ocr": "```\n(parameter) json: any\n```",
+    "timestamp": "2025-03-12T15:57:06.141082"
+  },
+  {
+    "post_id": 79122150,
+    "title": "VSCode, how to type tab in the search and replace box",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "```\n\\t\n```",
+    "timestamp": "2025-03-12T15:57:09.214998"
+  },
+  {
+    "post_id": 79122871,
+    "title": "Dynamic Configuration of Facebook Login with react-native-fbsdk-next in Expo",
+    "llm": "gpt",
+    "extraction_without_ocr": "```json\n\"appID\": \"48127127xxxxxxxx\",\n```",
+    "extraction_with_ocr": "```json\n\"appID\": \"48127127xxxxxxxx\",\n```",
+    "timestamp": "2025-03-12T15:57:13.823953"
+  },
+  {
+    "post_id": 79123414,
+    "title": "GitHub doesn&#39;t list latest release as &quot;latest&quot;",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\n9-2024.10.13-607d6fd\n```\n\n```\n17-2024.10.15-rename-models-1533982\n```",
+    "extraction_with_ocr": "```\n9-2024.10.13-607d6fd\n```\n\n```\n17-2024.10.15-rename-models-1533982\n```",
+    "timestamp": "2025-03-12T15:57:21.668974"
+  },
+  {
+    "post_id": 79123619,
+    "title": "Angular 14 to Angular 17 Migration",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\n../node_modules/@angular/common/fesm2020/common.mjs:3049:12-32 - Error: export\n```",
+    "extraction_with_ocr": "```plaintext\n../node_modules/@angular/common/fesm2020/common.mjs:3049:12-32 - Error: export\n```",
+    "timestamp": "2025-03-12T15:57:28.059670"
+  },
+  {
+    "post_id": 79123778,
+    "title": "Visual Studio extension to render clickable character before searched string",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nif ( 🖰 auto ok)\n```",
+    "extraction_with_ocr": "```\nif ( 🖰 auto ok)\n```",
+    "timestamp": "2025-03-12T15:57:34.447795"
+  },
+  {
+    "post_id": 79124400,
+    "title": "how to always select &quot;commit and push&quot; in vs code",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:57:37.783809"
+  },
+  {
+    "post_id": 79124931,
+    "title": "How to fix the Type Error ,,TransitionSpec throw type error in React Native Custom Animation of StackNavigator from @react-navigation/Stack",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nopen: Config,    Type '{ animation: string; config: { stiffness: number; damping: number; mass: number; overshootClamping: boolean; restDisplacementThreshold: number; restSpeedThreshold: number; }; }' is not assignable to type 'TransitionSpec'.\nclose: closeConfig,    Type '{ animation: string; config: { duration: number; easing: EasingFunction; }; }' is not assignable to type 'TransitionSpec'.\n```",
+    "extraction_with_ocr": "```plaintext\nopen: Config,    Type '{ animation: string; config: { stiffness: number; damping: number; mass: number; overshootClamping: boolean; restDisplacementThreshold: number; restSpeedThreshold: number; }; }' is not assignable to type 'TransitionSpec'.\nclose: closeConfig,    Type '{ animation: string; config: { duration: number; easing: EasingFunction; }; }' is not assignable to type 'TransitionSpec'.\n```",
+    "timestamp": "2025-03-12T15:57:45.670455"
+  },
+  {
+    "post_id": 79125174,
+    "title": "Swift Compiler Error (Xcode): Method does not override any method from its superclass",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nSwift Compiler Error (Xcode): Method does not override any method from its superclass\n/Users/sony/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/InAppWebView/InAppWebView.swift:1225:25\n```",
+    "extraction_with_ocr": "```\nSwift Compiler Error (Xcode): Method does not override any method from its superclass\n/Users/sony/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0/ios/Classes/InAppWebView/InAppWebView.swift:1225:25\n```",
+    "timestamp": "2025-03-12T15:57:52.944949"
+  },
+  {
+    "post_id": 79125244,
+    "title": "Angular not calling the detectChanges() method on button click (change detection)",
+    "llm": "gpt",
+    "extraction_without_ocr": "```javascript\ndetectChanges() {\n  this._lView[FLAGS] |= 1024 /* LViewFlags.RefreshView */;\n  detectChangesInternal(this._lView, this.notifyErrorHandler);\n}\n```",
+    "extraction_with_ocr": "```javascript\ndetectChanges() {\n  this._lView[FLAGS] |= 1024 /* LViewFlags.RefreshView */;\n  detectChangesInternal(this._lView, this.notifyErrorHandler);\n}\n```",
+    "timestamp": "2025-03-12T15:58:00.823958"
+  },
+  {
+    "post_id": 79126371,
+    "title": "Override (reintroduce) property with typescript declaration merging",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\ntype: keyof GlobalEventHandlersEve... (Event, .../src/global.d.ts)\ntype: string (Event, typescript, dom)\n```",
+    "extraction_with_ocr": "```\ntype: keyof GlobalEventHandlersEve... (Event, .../src/global.d.ts)\ntype: string (Event, typescript, dom)\n```",
+    "timestamp": "2025-03-12T15:58:09.323816"
+  },
+  {
+    "post_id": 79126629,
+    "title": "When will the useLayoutEffect hook callback be triggered?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```javascript\nconsole.log('CompA layoutEffectCallback');\n```",
+    "extraction_with_ocr": "```javascript\nuseLayoutEffect(() => {\n    console.log('CompA layoutEffectCallback');\n});\n```",
+    "timestamp": "2025-03-12T15:58:15.060639"
+  },
+  {
+    "post_id": 79126749,
+    "title": "How to change &quot;Recommended environment&quot; in Visual Studio Code",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nRecommended\n```",
+    "extraction_with_ocr": "```\nRecommended\n```",
+    "timestamp": "2025-03-12T15:58:20.075391"
+  },
+  {
+    "post_id": 79127167,
+    "title": "GraphQL schema not recognized in WebStorm",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nSchema discovery summary - 8 types, 2 enums, 4 directives\nNo endpoints available in the default schema\n```",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:58:23.146201"
+  },
+  {
+    "post_id": 79127434,
+    "title": "Cannot deserialize json in list of .net object",
+    "llm": "gpt",
+    "extraction_without_ocr": "```csharp\nConditions conditions = JsonConvert.DeserializeObject<Conditions>(json);\n```",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:58:27.140857"
+  },
+  {
+    "post_id": 79127946,
+    "title": "&quot;Object reference not set to an instance of an object&quot; after calling New",
+    "llm": "gpt",
+    "extraction_without_ocr": "```vb.net\n.TopLevel = False\n```\n\n```\nSystem.NullReferenceException: 'Object reference not set to an instance of an object.'\n```",
+    "extraction_with_ocr": "```vb.net\n.TopLevel = False\n```\n\n```\nSystem.NullReferenceException: 'Object reference not set to an instance of an object.'\n\n$W0 was Nothing.\n```",
+    "timestamp": "2025-03-12T15:58:36.766306"
+  },
+  {
+    "post_id": 79129172,
+    "title": "why boost asio tcp resolver creates threads for async resolve",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:58:41.375026"
+  },
+  {
+    "post_id": 79129180,
+    "title": "TypeScript Interface Method Not Recognized in Vue Component",
+    "llm": "gpt",
+    "extraction_without_ocr": "```typescript\nbaseProband.validateFormAttributeValues();\n```",
+    "extraction_with_ocr": "```typescript\nbaseProband.validateFormAttributeValues();\n```",
+    "timestamp": "2025-03-12T15:58:46.086873"
+  },
+  {
+    "post_id": 79130057,
+    "title": "JUnit4 code coverage issue with Exception expected",
+    "llm": "gpt",
+    "extraction_without_ocr": "```java\nSampleClass sample = new SampleClass(\"1234567\");\nSampleClass sample = new SampleClass(\"12345\");\nSampleClass puerto2 = new SampleClass(\"1234567\");\n```",
+    "extraction_with_ocr": "```java\nSampleClass sample = new SampleClass(\"1234567\");\nSampleClass sample = new SampleClass(\"12345\");\nSampleClass puerto2 = new SampleClass(\"1234567\");\n```",
+    "timestamp": "2025-03-12T15:58:52.135851"
+  },
+  {
+    "post_id": 79130069,
+    "title": "&quot;json_schema_extra&quot; and Pylance/Pyright issues",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nObject of type \"(JsonDict) -> None\" is not subscriptable Pylance(reportIndexIssue)\nObject of type \"None\" is not subscriptable Pylance(reportOptionalSubscript)\nFoo.model_fields[k].json_schema_extra[\"prompt\"] = kwargs[k]\n```",
+    "extraction_with_ocr": "```\nObject of type \"(JsonDict) -> None\" is not subscriptable Pylance(reportIndexIssue)\nObject of type \"None\" is not subscriptable Pylance(reportOptionalSubscript)\nFoo.model_fields[k].json_schema_extra[\"prompt\"] = kwargs[k]\n```",
+    "timestamp": "2025-03-12T15:58:57.392605"
+  },
+  {
+    "post_id": 79130522,
+    "title": "Remote-Debugging App deployed on Tomcat in Docker Container &quot;Connection Reset&quot;",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nHost: localhost\nPort: 8000\nCommand line arguments for remote JVM:\n-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8000\n```",
+    "extraction_with_ocr": "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8000",
+    "timestamp": "2025-03-12T15:59:04.926821"
+  },
+  {
+    "post_id": 79130529,
+    "title": "Adding a new package broke my Spring Boot Application",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:59:12.505212"
+  },
+  {
+    "post_id": 79130607,
+    "title": "Why does the Bulma CSS framwork change the z-index on hover?",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:59:17.277612"
+  },
+  {
+    "post_id": 79130670,
+    "title": "Why are they sometimes inconsistent? value of java.sql.Date type received from server then converted by google.gson .A json string sent from server",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\n\"createDate\":\"2022-05-05\",\n\"createTime\":\"12:00:00\",\n```",
+    "extraction_with_ocr": "```\n\"createDate\":\"2022-05-05\",\n\"createTime\":\"12:00:00\",\n```",
+    "timestamp": "2025-03-12T15:59:24.875541"
+  },
+  {
+    "post_id": 79131301,
+    "title": "prism.js isn&#39;t colorizing PHP",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T15:59:32.679239"
+  },
+  {
+    "post_id": 79131326,
+    "title": "Does EF Core supports `ComplexType` under `Owned` property?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nb1.ComplexProperty<Dictionary<string, object>>(\"Trashed_\", \"Zz.Model.Identity.UserMetaData.Trashed_#TrashData\", b2 => 'OwnedNavigationBuilder' does not contain a definition for 'ComplexProperty'\n```",
+    "extraction_with_ocr": "```plaintext\nb1.ComplexProperty<Dictionary<string, object>>(\"Trashed_\", \"Zz.Model.Identity.UserMetaData.Trashed_#TrashData\", b2 => 'OwnedNavigationBuilder' does not contain a definition for 'ComplexProperty'\n```",
+    "timestamp": "2025-03-12T15:59:39.376084"
+  },
+  {
+    "post_id": 79131385,
+    "title": "docker-compose: Getting fe_sendauth: no password supplied in pgadmin:8.12",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nfe_sendauth: no password supplied\n```",
+    "extraction_with_ocr": "```\nfe_sendauth: no password supplied\n```",
+    "timestamp": "2025-03-12T15:59:45.997726"
+  },
+  {
+    "post_id": 79131431,
+    "title": "PgAdmin4 unable to query or view data generated in a table by prisma",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nSELECT * FROM Post;\n```\n\n```\nERROR:  relation \"post\" does not exist\nLINE 1: SELECT * FROM Post;\n                      ^\nSQL state: 42P01\nCharacter: 15\n```",
+    "extraction_with_ocr": "```\nSELECT * FROM Post;\n```\n\n```\nERROR:  relation \"post\" does not exist\nLINE 1: SELECT * FROM Post;\n                      ^\nSQL state: 42P01\nCharacter: 15\n```",
+    "timestamp": "2025-03-12T15:59:54.237922"
+  },
+  {
+    "post_id": 79132115,
+    "title": "Run Roboelectric in Unit Testing and Most Efficient way to perform instrument test at physical device",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "```plaintext\n@RunWith(AndroidJUnit4::class)\n```",
+    "timestamp": "2025-03-12T15:59:59.302785"
+  },
+  {
+    "post_id": 79133673,
+    "title": "TestRiggor get Text from an Element and store it to a variabe assert it against expected text , and enter the actual test to a text field",
+    "llm": "gpt",
+    "extraction_without_ocr": "```html\n<h3>Dropdown List</h3>\n```",
+    "extraction_with_ocr": "```html\n<h3>Dropdown List</h3>\n```",
+    "timestamp": "2025-03-12T16:00:05.343066"
+  },
+  {
+    "post_id": 79135570,
+    "title": "How to check size of a pickle or number of contents it has",
+    "llm": "gpt",
+    "extraction_without_ocr": "```python\nwith open(\"rivergate_image.pkl\", \"rb\") as f:\n    river_images = pickle.load(f)\n\nprint(river_images[0])\nprint(len(river_images))\n```\n```\n[[ 27 147 145]\n [ 30 150 148]\n [ 28 148 146]\n ...\n [ 61 178 169]\n [ 63 177 169]\n [ 65 176 167]]\n1080\n```",
+    "extraction_with_ocr": "```python\nwith open(\"rivergate_image.pkl\", \"rb\") as f:\n    river_images = pickle.load(f)\n\nprint(river_images[0])\nprint(len(river_images))\n```\n\n```\n1080\n```",
+    "timestamp": "2025-03-12T16:00:10.873799"
+  },
+  {
+    "post_id": 79136659,
+    "title": "VSCode move primary side bar to bottom (*not* the activity bar)",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:00:16.096409"
+  },
+  {
+    "post_id": 79136777,
+    "title": "TeXify with IntelliJ IDEA for Mac M1 (Silicon) remains in an endless background process: &quot;Updating indexes&quot;",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nUpdating indexes\n\nIndexing module 'bienal'\n/usr/local/texlive/2024/texmf-dist/tex/latex/wargame/tikzlibrarywargame.natoapp6c.code.tex\n```",
+    "extraction_with_ocr": "```\nUpdating indexes\n\nIndexing module 'bienal'\n/usr/local/texlive/2024/texmf-dist/tex/latex/wargame/tikzlibrarywargame.natoapp6c.code.tex\n```",
+    "timestamp": "2025-03-12T16:00:23.666084"
+  },
+  {
+    "post_id": 79137268,
+    "title": "In VSCode language extension while comment toggling, comment indicator goes to 1 column left side from cursor pointer",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\n! Declare class RecordStack internal\n```",
+    "extraction_with_ocr": "```\n! Declare class RecordStack internal\n```",
+    "timestamp": "2025-03-12T16:00:28.429014"
+  },
+  {
+    "post_id": 79139152,
+    "title": "Is there a way to update LineAmountType in invoice using Xero api?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```json\n\"Status\": \"DRAFT\",\n\"LineAmountTypes\": \"Inclusive\",\n```",
+    "extraction_with_ocr": "```json\n\"LineAmountTypes\": \"Inclusive\",\n```",
+    "timestamp": "2025-03-12T16:00:36.168824"
+  },
+  {
+    "post_id": 79139318,
+    "title": "Why is Next.js throwing Error: WEBPACK_IMPORTED_MODULE is not a function?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```typescript\nconst user = UseAuthUser;\n```",
+    "extraction_with_ocr": "```typescript\nconst user = UseAuthUser;\n```",
+    "timestamp": "2025-03-12T16:00:42.509885"
+  },
+  {
+    "post_id": 79139431,
+    "title": "Cant print username on react",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\n0: {username: undefined, role: undefined}\n1: {username: undefined, role: undefined}\n```",
+    "extraction_with_ocr": "```plaintext\n0: {username: undefined, role: undefined}\n1: {username: undefined, role: undefined}\n```",
+    "timestamp": "2025-03-12T16:00:50.545209"
+  },
+  {
+    "post_id": 79139436,
+    "title": "Why doesn&#39;t Android Studio recognize the dependencies for googleId",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nUnresolved reference: GoogleIdTokenCredential\nAdd dependency on com.google.android.libraries.identity.googleid:googleid and import\n```",
+    "extraction_with_ocr": "```\nUnresolved reference: GoogleIdTokenCredential\nAdd dependency on com.google.android.libraries.identity.googleid:googleid and import\n```",
+    "timestamp": "2025-03-12T16:00:55.887341"
+  },
+  {
+    "post_id": 79139703,
+    "title": "How can I show an unauthorized view when HttpClient gets 403 from calling API in .NET Blazor Web Assembly?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\ncrit: Microsoft.AspNetCore.Components.WebAssembly.Rendering.WebAssemblyRenderer[100]\n      Unhandled exception rendering component: Response status code does not indicate success: 403 (Forbidden).\nSystem.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (Forbidden).\n   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()\n   at Stickers.Web.Pages.Stickers.ReadStickersAsync(Int32 pageNumber, Int32 pageSize) in C:\\Users\\1004975\\projects\\stickers\\src\\Stickers.Web\\Pages\\Stickers.razor:line 118\n   at Stickers.Web.Pages.Stickers.OnInitializedAsync() in C:\\Users\\1004975\\projects\\stickers\\src\\Stickers.Web\\Pages\\Stickers.razor:line 110\n   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()\n   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)\n```",
+    "extraction_with_ocr": "```plaintext\ncrit: Microsoft.AspNetCore.Components.WebAssembly.Rendering.WebAssemblyRenderer[100]\n      Unhandled exception rendering component: Response status code does not indicate success: 403 (Forbidden).\nSystem.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (Forbidden).\n   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()\n   at Stickers.Web.Pages.Stickers.ReadStickersAsync(Int32 pageNumber, Int32 pageSize) in C:\\Users\\1004975\\projects\\stickers\\src\\Stickers.Web\\Pages\\Stickers.razor:line 118\n   at Stickers.Web.Pages.Stickers.OnInitializedAsync() in C:\\Users\\1004975\\projects\\stickers\\src\\Stickers.Web\\Pages\\Stickers.razor:line 110\n   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()\n   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)\n```",
+    "timestamp": "2025-03-12T16:01:06.477709"
+  },
+  {
+    "post_id": 79142221,
+    "title": "@Autowired property not injected by Spring for unique value validator",
+    "llm": "gpt",
+    "extraction_without_ocr": "```java\n@Autowired\nprivate EmployeeRepository employeeRepository;  employeeRepository: null\n\nvar isUniqueEmail = employeeRepository [NullPointerException].existsByEmail(email);  email: \"Maxelline@somemail.ml\"  employeeRepository: null\n```",
+    "extraction_with_ocr": "```java\n@Autowired\nprivate EmployeeRepository employeeRepository;  employeeRepository: null\n\nvar isUniqueEmail = employeeRepository [NullPointerException].existsByEmail(email);  email: \"Maxelline@somemail.ml\"  employeeRepository: null\n```",
+    "timestamp": "2025-03-12T16:01:13.278880"
+  },
+  {
+    "post_id": 79142755,
+    "title": "ClosedXML and System.Memory Error in .NET 8: Anyone Solved This?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nSystem.IO.FileNotFoundException: 'Could not load file or assembly 'System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. O sistema não pode encontrar o arquivo especificado.'\n```",
+    "extraction_with_ocr": "```plaintext\nSystem.IO.FileNotFoundException: 'Could not load file or assembly 'System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. O sistema não pode encontrar o arquivo especificado.'\n```",
+    "timestamp": "2025-03-12T16:01:21.155573"
+  },
+  {
+    "post_id": 79142883,
+    "title": "HttpContext.Current.Session returns Null in .NET Framework v4.8",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nreturn HttpContext.Current.Session.Contents[Parameter].ToString();\n```\n\n```plaintext\nSystem.NullReferenceException: 'Object reference not set to an instance of an object.'\n\nSystem.Web.SessionState.HttpSessionState.this[string].get returned null.\n```",
+    "extraction_with_ocr": "```csharp\nreturn HttpContext.Current.Session.Contents[Parameter].ToString();\n```\n\n```\nSystem.NullReferenceException: 'Object reference not set to an instance of an object.'\n\nSystem.Web.SessionState.HttpSessionState.this[string].get returned null.\n```",
+    "timestamp": "2025-03-12T16:01:27.349653"
+  },
+  {
+    "post_id": 79142984,
+    "title": "What configuration should be used to obfuscate Angular 18 project with javascript-obfuscator?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nInvalid configuration object.\nWebpack has been initialized using a configuration object that does not match the API schema.\n - configuration.plugins[12] misses the property 'apply'. Should be:\n   function\n   -> The run point of the plugin, required method.\n```",
+    "extraction_with_ocr": "```\nAn unhandled exception occurred: Invalid configuration object.\nWebpack has been initialized using a configuration object that does not match the API schema.\n - configuration.plugins[12] misses the property 'apply'. Should be:\n   function\n   -> The run point of the plugin, required method.\n```",
+    "timestamp": "2025-03-12T16:01:32.489787"
+  },
+  {
+    "post_id": 79143159,
+    "title": "Hiding indentation background colors on Python line continuations in Visual Studio Code",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:01:36.378819"
+  },
+  {
+    "post_id": 79143195,
+    "title": "Laravel Octane Swoole exit() triggered when using with 24Slides/laravel-saml2 package for SSO",
+    "llm": "gpt",
+    "extraction_without_ocr": "```php\nexit();\n```",
+    "extraction_with_ocr": "```php\nexit();\n```",
+    "timestamp": "2025-03-12T16:01:42.316515"
+  },
+  {
+    "post_id": 79143556,
+    "title": "How to get accurate code coverage report using gcovr for MSYS2 MINGW64 Clang project?",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:01:47.538826"
+  },
+  {
+    "post_id": 79143620,
+    "title": "How to add additional fields in model serializer in django ModelViewSet?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```json\n{\n    \"user_id\": [\n        \"This field is required.\"\n    ]\n}\n```",
+    "extraction_with_ocr": "```json\n{\n    \"user_id\": [\n        \"This field is required.\"\n    ]\n}\n```",
+    "timestamp": "2025-03-12T16:01:55.115534"
+  },
+  {
+    "post_id": 79143664,
+    "title": "ChatGPT API request with type:image_url — error while downloading, invalid_image_url",
+    "llm": "gpt",
+    "extraction_without_ocr": "```json\n{\n    \"error\": {\n        \"message\": \"Error while downloading https:\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_image_url\"\n    }\n}\n```",
+    "extraction_with_ocr": "```json\n{\n    \"error\": {\n        \"message\": \"Error while downloading https:\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_image_url\"\n    }\n}\n```",
+    "timestamp": "2025-03-12T16:01:58.804811"
+  },
+  {
+    "post_id": 79143869,
+    "title": "Configuring LSP to recognize TailwindCSS @apply directives in Vue scoped SCSS with LazyVim",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\n@apply w-6 h-6;\n@apply rounded-full;\n```\n```\nUnknown at rule @apply\nUnknown at rule @apply\n```",
+    "extraction_with_ocr": "```scss\n@apply w-6 h-6;\n@apply rounded-full;\n```\n\n```\nUnknown at rule @apply\nUnknown at rule @apply\n```",
+    "timestamp": "2025-03-12T16:02:09.761467"
+  },
+  {
+    "post_id": 79144033,
+    "title": "Error : Gradle task assembleDebug failed with exit code 1",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nException in thread \"main\" java.util.zip.ZipException: zip END header not found\n\tat java.base/java.util.zip.ZipFile$Source.findEND(Unknown Source)\n\tat java.base/java.util.zip.ZipFile$Source.initCEN(Unknown Source)\n\tat java.base/java.util.zip.ZipFile$Source.<init>(Unknown Source)\n\tat java.base/java.util.zip.ZipFile$Source.get(Unknown Source)\n\tat java.base/java.util.zip.ZipFile$CleanableResource.<init>(Unknown Source)\n\tat java.base/java.util.zip.ZipFile.<init>(Unknown Source)\n\tat org.gradle.wrapper.Install.unzip(Install.java:214)\n\tat org.gradle.wrapper.Install.access$600(Install.java:27)\n\tat org.gradle.wrapper.Install$1.call(Install.java:74)\n\tat org.gradle.wrapper.Install$1.call(Install.java:48)\n\tat org.gradle.wrapper.ExclusiveFileAccessManager.access(ExclusiveFileAccessManager.java:65)\n\tat org.gradle.wrapper.Install.createDist(Install.java:48)\n\tat org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:128)\n\tat org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)\n\nError: Gradle task assembleDebug failed with exit code 1\n```",
+    "extraction_with_ocr": "```\nException in thread \"main\" java.util.zip.ZipException: zip END header not found\n    at java.base/java.util.zip.ZipFile$Source.findEND(Unknown Source)\n    at java.base/java.util.zip.ZipFile$Source.initCEN(Unknown Source)\n    at java.base/java.util.zip.ZipFile$Source.<init>(Unknown Source)\n    at java.base/java.util.zip.ZipFile$Source.get(Unknown Source)\n    at java.base/java.util.zip.ZipFile$CleanableResource.<init>(Unknown Source)\n    at java.base/java.util.zip.ZipFile.<init>(Unknown Source)\n    at org.gradle.wrapper.Install.unzip(Install.java:214)\n    at org.gradle.wrapper.Install.access$600(Install.java:27)\n    at org.gradle.wrapper.Install$1.call(Install.java:74)\n    at org.gradle.wrapper.Install$1.call(Install.java:48)\n    at org.gradle.wrapper.ExclusiveFileAccessManager.access(ExclusiveFileAccessManager.java:65)\n    at org.gradle.wrapper.Install.createDist(Install.java:48)\n    at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:128)\n    at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)\nError: Gradle task assembleDebug failed with exit code 1\n```",
+    "timestamp": "2025-03-12T16:02:22.870062"
+  },
+  {
+    "post_id": 79144053,
+    "title": "How to authenticate to MS Teams in a Cypress script?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nCypressError\n\nThe cy command you invoked inside the promise was:\n\n  > cy.log()\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n```\n\n```plaintext\n(uncaught exception) TypeError: can't define property Symbol(\"ERR_PREPARED_FOR_SERIALIZATION\"): Error is not extensible\n```",
+    "extraction_with_ocr": "```plaintext\nCypressError\n\nThe cy command you invoked inside the promise was:\n\n  > cy.log()\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n```\n\n```plaintext\n(uncaught exception) TypeError: can't define property Symbol(\"ERR_PREPARED_FOR_SERIALIZATION\"): Error is not extensible\n```",
+    "timestamp": "2025-03-12T16:02:30.447575"
+  },
+  {
+    "post_id": 79144079,
+    "title": "TigerGraph GraphQL query of relation edges or neighbor vertices in where argument does not work",
+    "llm": "gpt",
+    "extraction_without_ocr": "```graphql\nComment(where: {created_To_User: {to: {id: {_eq: 10}}}}) {\n```\n\n```json\n\"errors\": [\n    \"\\nType Check Error in query (TYP-8017): line 5, col 50\\nno type can be inferred for v.created_To_User\\n\"\n]\n```",
+    "extraction_with_ocr": "```graphql\nComment(where: {created_To_User: {to: {id: {_eq: 10}}}}) {\n```\n\n```json\n\"errors\": [\n    \"\\nType Check Error in query (TYP-8017): line 5, col 50\\nno type can be inferred for v.created_To_User\\n\"\n]\n```",
+    "timestamp": "2025-03-12T16:02:37.408570"
+  },
+  {
+    "post_id": 79144165,
+    "title": "How do I upload file and pass list of dict as parameters in a POST endpoint in FastAPI?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```json\n{\n    \"detail\": [\n        {\n            \"type\": \"model_attributes_type\",\n            \"loc\": [\n                \"body\",\n                \"params\"\n            ],\n            \"msg\": \"Input should be a valid dictionary or object to extract fields from\",\n            \"input\": \"{\\\"data\\\":[{\\\"name\\\":\\\"string\\\",\\\"header_exists\\\":true,\\\"rows_to_skip\\\":0}]}\"\n        }\n    ]\n}\n```",
+    "extraction_with_ocr": "```json\n{\n    \"detail\": [\n        {\n            \"type\": \"model_attributes_type\",\n            \"loc\": [\n                \"body\",\n                \"params\"\n            ],\n            \"msg\": \"Input should be a valid dictionary or object to extract fields from\",\n            \"input\": \"{\\\"data\\\":[{\\\"name\\\":\\\"string\\\",\\\"header_exists\\\":true,\\\"rows_to_skip\\\":0}]}\"\n        }\n    ]\n}\n```",
+    "timestamp": "2025-03-12T16:02:50.617481"
+  },
+  {
+    "post_id": 79144187,
+    "title": "Error 500 while deploying Prisma on Vercel",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nPOST https://www.colibrimo.com/api/username 500 (Internal Server Error)\n\nH {message: 'Request failed with status code 500', name: 'AxiosError', code: 'ERR_BAD_RESPONSE', config: {…}, …}\n  message: \"Request failed with status code 500\"\n  name: \"AxiosError\"\n  response: {data: {…}, status: 500, statusText: '', headers: eT, config: {…}, …}\n  status: 500\n  stack: \"AxiosError: Request failed with status code 500\\n    at eN (https://www.colibrimo.com/_next/static/chunks/728-51676f84948f2a26.js:1:58984)\\n    at XMLHttpRequest.y (https://www.colibrimo.com/_next/static/chunks/page-47b66c22ccb3e921.js:1:58984)\\n    at XMLHttpRequest.r (https://www.colibrimo.com/_next/static/chunks/page-47b66c22ccb3e921.js:1:58984)\"\n```",
+    "extraction_with_ocr": "```plaintext\nPOST https://www.colibrimo.com/api/username 500 (Internal Server Error)\n\nH {message: 'Request failed with status code 500', name: 'AxiosError', code: 'ERR_BAD_RESPONSE', config: {…}, request: XMLHttpRequest, …}\n  code: \"ERR_BAD_RESPONSE\"\n  message: \"Request failed with status code 500\"\n  name: \"AxiosError\"\n  response: {data: {…}, status: 500, statusText: '', headers: eT, config: {…}, …}\n  status: 500\n  stack: \"AxiosError: Request failed with status code 500\\n    at eN (https://www.colibrimo.com/_next/static/chunks/728-51676f84948f2a26.js:1:58984)\\n    at XMLHttpRequest.y (https://www.colibrimo.com/_next/static/chun\n```",
+    "timestamp": "2025-03-12T16:03:02.834117"
+  },
+  {
+    "post_id": 79144988,
+    "title": "Font-family from google fonts doesn&#39;t work in MJML",
+    "llm": "gpt",
+    "extraction_without_ocr": "```html\n<mj-font name=\"Source Sans 3\" href=\"https://fonts.googleapis.com/css?family=Source+Sans+3\" />\n```",
+    "extraction_with_ocr": "```mjml\n    <mj-font name=\"Source Sans 3\" href=\"https://fonts.googleapis.com/css?family=Source+Sans+3\" />\n```",
+    "timestamp": "2025-03-12T16:03:22.567104"
+  },
+  {
+    "post_id": 79145106,
+    "title": "Where to change the text color for tabs having modified files in PhpStorm?",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:03:28.560480"
+  },
+  {
+    "post_id": 79145758,
+    "title": "Typescript Polymorphic Component Event Handler",
+    "llm": "gpt",
+    "extraction_without_ocr": "```typescript\nconsole.log(ev.currentTarget);  // Property 'currentTarget' does not exist on type 'HTMLElement'.\n```",
+    "extraction_with_ocr": "```typescript\nconsole.log(ev.currentTarget);  // Property 'currentTarget' does not exist on type 'HTMLElement'.\n```",
+    "timestamp": "2025-03-12T16:03:33.524451"
+  },
+  {
+    "post_id": 79146127,
+    "title": "SyntaxError: Cannot use import statement outside a module ts-jest",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nSyntaxError: Cannot use import statement outside a module\n\n> 2 | import logSymbols from 'log-symbols';\n    | ^\n\nimport pc from 'picocolors'\n```",
+    "extraction_with_ocr": "```plaintext\nSyntaxError: Cannot use import statement outside a module\n\n> 2 | import logSymbols from 'log-symbols';\n    | ^\n```",
+    "timestamp": "2025-03-12T16:03:40.594379"
+  },
+  {
+    "post_id": 79146412,
+    "title": "LINQPad 8 Dump Property Order different that LINQPad 5",
+    "llm": "gpt",
+    "extraction_without_ocr": "```csharp\nvar aws = await DbContexts.AWSAsync();\nvar user = await aws.Users.FirstAsync();\nnew[] {\n    new {\n        user,\n        properties = user.GetType().GetProperties().Select(p => new { p.Name, p.PropertyType })\n    }\n}.Dump();\n```",
+    "extraction_with_ocr": "```csharp\nvar aws = await DbContexts.AWSAsync();\nvar user = await aws.Users.FirstAsync();\nnew[] {\n    new {\n        user,\n        properties = user.GetType().GetProperties().Select(p => new { p.Name, p.PropertyType })\n    }\n}.Dump();\n```",
+    "timestamp": "2025-03-12T16:03:47.247086"
+  },
+  {
+    "post_id": 79146548,
+    "title": "GitHub Copilot responds to &#39;Hey Code&#39; but dictation doesn&#39;t work",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:03:51.444595"
+  },
+  {
+    "post_id": 79152920,
+    "title": "Maven cannot resolve a kotlin library of .knm files",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:03:57.409014"
+  },
+  {
+    "post_id": 79160159,
+    "title": "Minimum elastic instance count Azure App Service",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\n\"minimumElasticInstanceCount\": 0,\n```",
+    "extraction_with_ocr": "```\n\"minimumElasticInstanceCount\": 0,\n```",
+    "timestamp": "2025-03-12T16:04:02.093885"
+  },
+  {
+    "post_id": 79167189,
+    "title": "ACC Recipients - Who? What? Where? When? How?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```json\n\"recipients\": null,\n```",
+    "extraction_with_ocr": "```json\n\"recipients\": null,\n```",
+    "timestamp": "2025-03-12T16:04:05.471070"
+  },
+  {
+    "post_id": 79168391,
+    "title": "next-intl routing.ts giving TS2554: Expected 0 arguments, but got 1",
+    "llm": "gpt",
+    "extraction_without_ocr": "```typescript\nexport const routing = defineRouting( config: {\n  locales: [\"en-US\", \"fr-CA\", \"nl-NL\"],\n  defaultLocale: \"en-US\",\n});\n```\n\n```typescript\nexport const { Link, getPathname, redirect, usePathname, useRouter } = \n  createNavigation(routing);\n```",
+    "extraction_with_ocr": "```typescript\nexport const routing = defineRouting( config: {\n  locales: [\"en-US\", \"fr-CA\", \"nl-NL\"],\n  defaultLocale: \"en-US\",\n});\n```\n\n```typescript\nexport const { Link, getPathname, redirect, usePathname, useRouter } = \n  createNavigation(routing);\n```",
+    "timestamp": "2025-03-12T16:04:15.098701"
+  },
+  {
+    "post_id": 79175055,
+    "title": "Not able to install flutter app in external device",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nE/AndroidRuntime(29040): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.appazon.appazon/com.appazon.appazon.MainActivity}: java.lang.ClassNotFoundException: Didn't find class \"com.appazon.appazon.MainActivity\" on path: DexPathList[[zip file \"/data/app/~~OM2AzhFMd9XUFVOiiYzuPQ==/com.appazon.appazon-gzQHt98phAih6HHo86Rtng==/base.apk\"],nativeLibraryDirectories=[/data/app/~~OM2AzhFMd9XUFVOiiYzuPQ==/com.appazon.appazon-gzQHt98phAih6HHo86Rtng==/lib/arm64, /data/app/~~OM2AzhFMd9XUFVOiiYzuPQ==/com.appazon.appazon-gzQHt98phAih6HHo86Rtng==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64]]\n```",
+    "extraction_with_ocr": "```plaintext\nE/AndroidRuntime(29040): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.appazon.appazon/com.appazon.appazon.MainActivity}: java.lang.ClassNotFoundException: Didn't find class \"com.appazon.appazon.MainActivity\" on path: DexPathList[[zip file \"/data/app/~~OM2AzhFMd9XUFVOiiYzuPQ==/com.appazon.appazon-gzQHt98phAih6HHo86Rtng==/base.apk\"],nativeLibraryDirectories=[/data/app/~~OM2AzhFMd9XUFVOiiYzuPQ==/com.appazon.appazon-gzQHt98phAih6HHo86Rtng==/lib/arm64, /data/app/~~OM2AzhFMd9XUFVOiiYzuPQ==/com.appazon.appazon-gzQHt98phAih6HHo86Rtng==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64]]\n```",
+    "timestamp": "2025-03-12T16:04:25.611239"
+  },
+  {
+    "post_id": 79181510,
+    "title": "The system cannot find the file specified typescript",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nresolve : CreateFile C:\\Users\\user\\Desktop\\YOUAPP_FULLSTACK_PROJECT\\you-app-backend\\chat-microservice\\you-app-backend: The system cannot find the file specified.\n\nresolve : CreateFile C:\\Users\\user\\Desktop\\YOUAPP_FULLSTACK_PROJECT\\you-app-backend\\notification-microservice\\you-app-backend: The system cannot find the file specified.\n```",
+    "extraction_with_ocr": "```\nresolve : CreateFile C:\\Users\\user\\Desktop\\YOUAPP_FULLSTACK_PROJECT\\you-app-backend\\chat-microservice\\you-app-backend: The system cannot find the file specified.\n\nresolve : CreateFile C:\\Users\\user\\Desktop\\YOUAPP_FULLSTACK_PROJECT\\you-app-backend\\notification-microservice\\you-app-backend: The system cannot find the file specified.\n```",
+    "timestamp": "2025-03-12T16:04:37.942164"
+  },
+  {
+    "post_id": 79186360,
+    "title": "Dependency Web-Flux not Found on pom.xml (Springboot)",
+    "llm": "gpt",
+    "extraction_without_ocr": "```xml\n<dependency>\n    <groupId>org.springframework.boot</groupId>\n    <artifactId>spring-boot-starter-webflux</artifactId>\n    <version>3.4.0-RC1</version>\n</dependency>\n```",
+    "extraction_with_ocr": "```xml\n<dependency>\n    <groupId>org.springframework.boot</groupId>\n    <artifactId>spring-boot-starter-webflux</artifactId>\n    <version>3.4.0-RC1</version>\n</dependency>\n```",
+    "timestamp": "2025-03-12T16:04:42.777637"
+  },
+  {
+    "post_id": 79192259,
+    "title": "React Native Track Player ios Troubleshooting building 100%",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\ncom.facebook.react.runtime.JavaScript (9): EXC_BAD_ACCESS (code=1, address=0x0)\n```",
+    "extraction_with_ocr": "```plaintext\ncom.facebook.react.runtime.JavaScript (9): EXC_BAD_ACCESS (code=1, address=0x0)\n```",
+    "timestamp": "2025-03-12T16:04:50.160165"
+  },
+  {
+    "post_id": 79200235,
+    "title": "What is &#39;effect&#39; on Vue computed properties",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\neffect\n```",
+    "extraction_with_ocr": "```\neffect\n```",
+    "timestamp": "2025-03-12T16:04:53.297878"
+  },
+  {
+    "post_id": 79201667,
+    "title": "Trying to get the datetime of 12am on last Monday - it always gives me 12pm",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\ncalendar.set(Calendar.HOUR, 0)\nDate toDate = calendar.getTime()    toDate: \"Mon Nov 18 12:00:00 UTC 2024\"\n```",
+    "extraction_with_ocr": "```plaintext\ncalendar.set(Calendar.HOUR, 0)\nDate toDate = calendar.getTime()  toDate: \"Mon Nov 18 12:00:00 UTC 2024\"\n```",
+    "timestamp": "2025-03-12T16:05:02.716567"
+  },
+  {
+    "post_id": 79205587,
+    "title": "How to better align contents within a ZStack?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```swift\nZStack {\n    RoundedRectangle(cornerRadius: 8)\n        .frame(height: 100)\n        .foregroundStyle(.white)\n        .padding()\n\n    HStack {\n        VStack(alignment: .leading) {\n            Text(\"WF Checking...7246\")\n                .fontWeight(.semibold)\n\n            Text(\"$500\")\n                .padding(1)\n                .fontWeight(.semibold)\n\n            Text(\"Available balance\")\n                .font(.footnote)\n        }\n        .padding(30)\n        Spacer()\n    }\n}\n.background(.black)\n```",
+    "extraction_with_ocr": "```swift\nZStack {\n    RoundedRectangle(cornerRadius: 8)\n        .frame(height: 100)\n        .foregroundStyle(.white)\n        .padding()\n\n    HStack {\n        VStack(alignment: .leading) {\n            Text(\"WF Checking...7246\")\n                .fontWeight(.semibold)\n\n            Text(\"$500\")\n                .padding(1)\n                .fontWeight(.semibold)\n\n            Text(\"Available balance\")\n                .font(.footnote)\n        }\n        .padding(30)\n        Spacer()\n    }\n}\n.background(.black)\n```",
+    "timestamp": "2025-03-12T16:05:12.648005"
+  },
+  {
+    "post_id": 79213097,
+    "title": "Is it possible to create and launch a Shiny App within an R function?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```r\nshiny::runExample(\"01_hello\")\n```",
+    "extraction_with_ocr": "```r\nshiny::runExample(\"01_hello\")\n```",
+    "timestamp": "2025-03-12T16:05:21.219916"
+  },
+  {
+    "post_id": 79219211,
+    "title": "Matplotlib polar chart not showing all xy-ticks",
+    "llm": "gpt",
+    "extraction_without_ocr": "```python\nax.set_xticks(range(0,24))\nax.set_xticklabels([str(number) for number in range(0, 24)])\n\nax.set_yticks(range(0,31))\nax.set_yticklabels([str(number) for number in range(0, 31)])\n```",
+    "extraction_with_ocr": "```python\nax.set_xticks(range(0,24))\nax.set_xticklabels([str(number) for number in range(0, 24)])\n\nax.set_yticks(range(0,31))\nax.set_yticklabels([str(number) for number in range(0, 31)])\n```",
+    "timestamp": "2025-03-12T16:05:30.978719"
+  },
+  {
+    "post_id": 79222793,
+    "title": "Allow $var in Monaco Editor for sass file",
+    "llm": "gpt",
+    "extraction_without_ocr": "```scss\nborder-color: $palette-secondary;\n```",
+    "extraction_with_ocr": "```scss\nborder-color: $palette-secondary;\n```",
+    "timestamp": "2025-03-12T16:05:35.585773"
+  },
+  {
+    "post_id": 79223478,
+    "title": "ERA5 Pressure Values on Theta Levels",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\n1:Pressure:Pa (avgua):sh:theta:level 265:fcst time 0 hrs (avgua):from 199001010000\n\ngrbs[1].values.shape\n(410240,)\n\ngrbs[1].values[0:50]\narray([ 9.72833750e+04,  0.00000000e+00, -1.72021631e+03,  0.00000000e+00,\n        0.00000000e+00, -3.38496582e+03,  0.00000000e+00,  1.67837082e+02,\n        0.00000000e+00, -1.98187695e+03,  0.00000000e+00,  1.31909009e+03,\n        0.00000000e+00, -9.66795898e+02,  0.00000000e+00,  6.20283691e+02,\n        0.00000000e+00, -2.23741272e+02,  0.00000000e+00,  7.80319824e+02,\n        0.00000000e+00,  1.05687149e+02,  0.00000000e+00,  4.70049316e+02,\n        0.00000000e+00,  7.82590485e+01,  0.00000000e+00, -3.31324463e+02,\n        0.00000000e+00,  1.09626709e+02,  0.00000000e+00, -1.71440903e+02,\n        0.00000000e+00,  2.86720703e+02,  0.00000000e+00, -6.27181702e+01,\n        0.00000000e+00,  2.68558044e+01,  0.00000000e+00, -1.04187317e+02,\n        0.00000000e+00, -1.21484620e+02,  0.00000000e+00,  1.12611212e+02,\n        0.00000000e+00, -2.98360721e+01,  0.00000000e+00,  3.26948685e+02,\n        0.00000000e+00])\n```",
+    "extraction_with_ocr": "```plaintext\n1:Pressure:Pa (avgua):sh:theta:level 265:fcst time 0 hrs (avgua):from 199001010000\n\ngrbs[1].values.shape\n(410240,)\n\ngrbs[1].values[0:50]\n```",
+    "timestamp": "2025-03-12T16:05:54.223001"
+  },
+  {
+    "post_id": 79232064,
+    "title": "How can i handle the shadow-root (open) with selenium",
+    "llm": "gpt",
+    "extraction_without_ocr": "```html\n#shadow-root (open)\n<button class=\"walla-button__button walla-button__button--medium walla-button__button--primary\" role=\"button\" type=\"button\" part=\"button\">\n    <div class=\"walla-button__children-container\" part=\"children-container\">\n        <slot name=\"left-icon\"></slot>\n        <span>Ver más productos</span>\n        <slot name=\"right-component\"></slot>\n    </div>\n</button>\n```",
+    "extraction_with_ocr": "```html\n#shadow-root (open)\n<button class=\"walla-button__button walla-button__button--medium walla-button__button--primary\" role=\"button\" type=\"button\" part=\"button\">\n    <div class=\"walla-button__children-container\" part=\"children-container\">\n        <slot name=\"left-icon\"></slot>\n        <span>Ver más productos</span>\n        <slot name=\"right-component\"></slot>\n    </div>\n</button>\n```",
+    "timestamp": "2025-03-12T16:06:00.644199"
+  },
+  {
+    "post_id": 79235964,
+    "title": "VSCode - Intellisense not working in (.jsx React)",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nevent.\n```",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:06:05.929321"
+  },
+  {
+    "post_id": 79261983,
+    "title": "Room types drop drown diplay as blank",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\n\"roomType\" => Illuminate...\\Collection {#326 ▼\n  #items: array:4 [▼\n    0 => App\\Mode...\\RoomType {#335 ▼\n      #connection: \"mysql\"\n      #table: \"room_types\"\n      #primaryKey: \"id\"\n      #keyType: \"int\"\n      #incrementing: true\n      #with: []\n      #withCount: []\n      #preventsLazyLoading: false\n      #perPage: 15\n      #exists: true\n      #wasRecentlyCreated: false\n      #escapeWhenCastingToString: false\n      #attributes: array:6 [▼\n        \"id\" => 2\n        \"name\" => \"AC Room\"\n        \"price\" => \"3000.00\"\n        \"created_at\" => \"2024-12-06 10:49:16\"\n        \"updated_at\" => \"2024-12-06 10:49:16\"\n        \"room_id\" => 2\n      ]\n```",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:06:14.702888"
+  },
+  {
+    "post_id": 79263329,
+    "title": "How to change text color of facet category in plotly charts in Python?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```python\nfig.for_each_annotation(lambda a: a.update(text=a.text.split(\"=\")[-1]))\n```",
+    "extraction_with_ocr": "```python\nfig.for_each_annotation(lambda a: a.update(text=a.text.split(\"=\")[-1]))\n```",
+    "timestamp": "2025-03-12T16:06:23.203589"
+  },
+  {
+    "post_id": 79266306,
+    "title": "Change event result",
+    "llm": "gpt",
+    "extraction_without_ocr": "```vba\nPrivate Sub RunMacroForDropdown(ByVal Target As Range)\n\n    Dim Synthese_Global As Worksheet\n    Set Synthese_Global = ThisWorkbook.Worksheets(\"Synthèse_Globale\")\n\n    If Not Intersect(Target, [B1]) Is Nothing Then\n        Call MyMacro\n    End If\n\nEnd Sub\n\nSub MyMacro()\n    MsgBox \"Cell B1 has changed!\"\nEnd Sub\n```",
+    "extraction_with_ocr": "```vba\nPrivate Sub RunMacroForDropdown(ByVal Target As Range)\n\n    Dim Synthese_Global As Worksheet\n    Set Synthese_Global = ThisWorkbook.Worksheets(\"Synthèse_Globale\")\n\n    If Not Intersect(Target, [B1]) Is Nothing Then\n        Call MyMacro\n    End If\n\nEnd Sub\n```",
+    "timestamp": "2025-03-12T16:06:29.919328"
+  },
+  {
+    "post_id": 79268509,
+    "title": "How to disable indentation guides in Visual Studio Code?",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:06:34.874542"
+  },
+  {
+    "post_id": 79273621,
+    "title": "Why is python mock assert_any_call not matching",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:06:39.381627"
+  },
+  {
+    "post_id": 79274920,
+    "title": "Oracle Apex Server-side Code do not set item",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plsql\nbegin\nselect\nedrpou || '; ' || nameorg || '; ' || short_name || '; ' || address || '; ' || boss\ninto :P206_SEARCH_RESULT\nfrom dual\nleft join (\nselect * from (\nselect\ntrim(d.edrpou) edrpou,\ntrim(d.nameorg) nameorg,\ntrim(d.short_name) short_name,\ntrim(d.address) address,\ntrim(d.boss) boss,\nd.date_d,\nmax(d.date_d) over (partition by trim(d.edrpou)) max_date\nfrom edrpou_ d\nwhere trim(d.edrpou) = :P206_EDRPOU_SEARCH\nand trim(d.short_name) is not null\nand d.isactual = 1\n) e\nwhere e.date_d = e.max_date\n) on 1=1;\nend;\n```",
+    "extraction_with_ocr": "```plsql\nbegin\nselect\nedrpou || '; ' || nameorg || '; ' || short_name || '; ' || address || '; ' || boss\ninto :P206_SEARCH_RESULT\nfrom dual\nleft join (\nselect * from (\nselect\ntrim(d.edrpou) edrpou,\ntrim(d.nameorg) nameorg,\ntrim(d.short_name) short_name,\ntrim(d.address) address,\ntrim(d.boss) boss,\nd.date_d,\nmax(d.date_d) over (partition by trim(d.edrpou)) max_date\nfrom edrpou_ d\nwhere trim(d.edrpou) = :P206_EDRPOU_SEARCH\nand trim(d.short_name) is not null\nand d.isactual = 1\n) e\nwhere e.date_d = e.max_date\n) on 1=1;\nend;\n```",
+    "timestamp": "2025-03-12T16:06:46.430453"
+  },
+  {
+    "post_id": 79278047,
+    "title": "Laravel Eloquent Model::save does not save objects in db, no error message",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\ncreated_at: null\nupdated_at: null\n```",
+    "extraction_with_ocr": "```\ncreated_at: null\nupdated_at: null\n```",
+    "timestamp": "2025-03-12T16:06:51.143181"
+  },
+  {
+    "post_id": 79279577,
+    "title": "Tkinter different behaviours for alpha using terminal and script",
+    "llm": "gpt",
+    "extraction_without_ocr": "```python\nimport tkinter as tk\n\nif __name__ == \"__main__\":\n    root = tk.Tk()\n    root.title(\"script\")\n    root.geometry(\"400x400\")\n    root.attributes(\"-alpha\", 0.5)\n    root.mainloop()\n```\n\n```\n>>> import tkinter as tk\n>>> root = tk.Tk()\n>>> root.geometry(\"400x400\")\n>>> root.attributes(\"-alpha\", 0.5)\n>>> root.mainloop()\n```",
+    "extraction_with_ocr": "```python\nroot.attributes(\"-alpha\", 0.5)\n```",
+    "timestamp": "2025-03-12T16:07:00.169229"
+  },
+  {
+    "post_id": 79283291,
+    "title": "Virtual environments for Python not working in VSCode",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:07:03.753605"
+  },
+  {
+    "post_id": 79283785,
+    "title": "ADF Copy activity is making double column in adx as &quot;infinity&quot; for 1.7976931348623157E308 value",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:07:07.948823"
+  },
+  {
+    "post_id": 79284472,
+    "title": "How to create a type definition for an array of objects without using any[]?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```typescript\nconst allMonths: TZDate[] = eachMonthOfInterval(\nconsole.log(allMonths[0].internal);\n```",
+    "extraction_with_ocr": "```typescript\nconst allMonths: TZDate[] = eachMonthOfInterval(\nconsole.log(allMonths[0].internal);\n```",
+    "timestamp": "2025-03-12T16:07:11.993937"
+  },
+  {
+    "post_id": 79285646,
+    "title": "How can I create a Swift macro that forwards parameters to another macro?",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:07:18.088249"
+  },
+  {
+    "post_id": 79286745,
+    "title": "Azure Databricks Linked Services Creation via Powershell dataSecurityMode not append",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:07:21.816309"
+  },
+  {
+    "post_id": 79287469,
+    "title": "What is the proper way to make a search call in async mode in unboundId ldap sdk for java?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nldapResult = (SearchResult@12828) \"SearchResult(resultCode=0 (success), messageID=3, entriesReturned=1, referencesReturned=0)\"\n    numEntries = 1\n    searchEntries = null\n```",
+    "extraction_with_ocr": "```\nldapResult = (SearchResult@12828) \"SearchResult(resultCode=0 (success), messageID=3, entriesReturned=1, referencesReturned=0)\"\n    numEntries = 1\n    searchEntries = null\n```",
+    "timestamp": "2025-03-12T16:07:26.691546"
+  },
+  {
+    "post_id": 79288802,
+    "title": "why my simple page doesnt save the cookie",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\ndocument.cookie = \"myCookie=myValue; expires=Thu, 01 Jan 2025 00:00:00 UTC; path=/\";\ndocument.cookie\n```",
+    "extraction_with_ocr": "```\ndocument.cookie = \"myCookie=myValue; expires=Thu, 01 Jan 2025 00:00:00 UTC; path=/\";\ndocument.cookie\n```",
+    "timestamp": "2025-03-12T16:07:31.093829"
+  },
+  {
+    "post_id": 79291999,
+    "title": "Cannot explain alloc/op in benchmark result",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:07:38.398894"
+  },
+  {
+    "post_id": 79292405,
+    "title": "Create multiple circles on the same scene using JavaFX and setOnMouseMoved method",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:07:47.082036"
+  },
+  {
+    "post_id": 79293711,
+    "title": "Azure Function App using Key Vault with Managed identity not authorised",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:07:53.633530"
+  },
+  {
+    "post_id": 79298337,
+    "title": "Viewing variable values in Visual Studio code using Rust and CodeLLDB",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "```\nhash_builder = {k0:4345136843843808195, k1:4410476380936676406}\n\ntable = {bucket_mask:3, growth_left:2, items:1}\n  bucket_mask = 3\n  ctrl = {pointer=\"\\xff\\xff\\xfu\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xfu\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xab\\xbd\"}\n  growth_left = 2\n  items = 1\n```",
+    "timestamp": "2025-03-12T16:07:59.049052"
+  },
+  {
+    "post_id": 79298483,
+    "title": "Azure HttpTrigger function with Blob() output issue with .NET 8.0 upgrade",
+    "llm": "gpt",
+    "extraction_without_ocr": "```csharp\n[Blob(\"amperitydirect/out\", System.IO.FileAccess.Write, Connection = \"AmperityDirect-connection\")] BlobContainerClient outputSytleContainer\n```",
+    "extraction_with_ocr": "```csharp\n[Blob(\"amperitydirect/out\", System.IO.FileAccess.Write, Connection = \"AmperityDirect-connection\")] BlobContainerClient outputSytleContainer\n```",
+    "timestamp": "2025-03-12T16:08:03.427146"
+  },
+  {
+    "post_id": 79306199,
+    "title": "OpenGL program is showing black screen only, while it should be showing a square",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:08:13.694285"
+  },
+  {
+    "post_id": 79306772,
+    "title": "Error with ngxdaterangepickermd after Upgrade angular app from 15 to 16",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:08:17.685780"
+  },
+  {
+    "post_id": 79314827,
+    "title": "VSCode : name of the element on the right of the opened tabs",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:08:21.369192"
+  },
+  {
+    "post_id": 79314862,
+    "title": "OpenSearch prevent script_score from running more than once",
+    "llm": "gpt",
+    "extraction_without_ocr": "```json\n\"_score\": 18444,\n\"fields\": {\n  \"_id\": [\n    \"6148\"\n  ]\n}\n```",
+    "extraction_with_ocr": "```json\n\"_score\": 18444,\n\"fields\": {\n  \"_id\": [\n    \"6148\"\n  ]\n}\n```",
+    "timestamp": "2025-03-12T16:08:28.439425"
+  },
+  {
+    "post_id": 79315298,
+    "title": "Why does “var” in Java 11 bypass the “protected” access restriction?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```java\nvar innerChild = new Child.InnerChild().self();\nSystem.out.println(innerChild);\nSystem.out.println(innerChild.getClass().getName());\n```",
+    "extraction_with_ocr": "```java\nvar innerChild = new Child.InnerChild().self();\nSystem.out.println(innerChild);\nSystem.out.println(innerChild.getClass().getName());\n```",
+    "timestamp": "2025-03-12T16:08:40.321033"
+  },
+  {
+    "post_id": 79320289,
+    "title": "Why can&#39;t I wrap LGBM?",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "```python\nclass A(B):\n    def __init__(self, **kwargs):  # l2 is\n        super().__init__(**kwargs)\n```",
+    "timestamp": "2025-03-12T16:08:45.333980"
+  },
+  {
+    "post_id": 79324593,
+    "title": "How do I fix &quot;ambiguous overload&quot; when using Hibernate with Scala?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nAmbiguous overload. The overloaded alternatives of method where in trait JpaCriteriaQuery with types\n(x$0: jakarta.persistence.criteria.Predicate*):\n  org.hibernate.query.criteria.JpaCriteriaQuery[database.Server]\n(x$0: jakarta.persistence.criteria.Expression[Boolean]):\n  org.hibernate.query.criteria.JpaCriteriaQuery[database.Server]\nboth match arguments (org.hibernate.query.criteria.JpaPredicate)\n```",
+    "extraction_with_ocr": "```\nAmbiguous overload. The overloaded alternatives of method where in trait JpaCriteriaQuery with types\n(x$0: jakarta.persistence.criteria.Predicate*):\n  org.hibernate.query.criteria.JpaCriteriaQuery[database.Server]\n(x$0: jakarta.persistence.criteria.Expression[Boolean]):\n  org.hibernate.query.criteria.JpaCriteriaQuery[database.Server]\nboth match arguments (org.hibernate.query.criteria.JpaPredicate)\n```",
+    "timestamp": "2025-03-12T16:08:53.629267"
+  },
+  {
+    "post_id": 79342759,
+    "title": "Vscode terminal remove or hide path in python",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:09:00.282886"
+  },
+  {
+    "post_id": 79354105,
+    "title": "Icon &quot;chain&quot; vscode",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:09:05.812624"
+  },
+  {
+    "post_id": 79355058,
+    "title": "Scapy not sniffing packets in monitor mode on Raspberry Pi5",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nINFO: Can't import PyX. Won't be able to use psdump() or pdfdump.\n\n>>> pkt = sniff(iface='wlan1', timeout=10)\n>>> pkt\n<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>\n```",
+    "extraction_with_ocr": "```python\npkt = sniff(iface='wlan1', timeout=10)\npkt\n<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>\n```",
+    "timestamp": "2025-03-12T16:09:12.775538"
+  },
+  {
+    "post_id": 79357676,
+    "title": "How turn-off Blue bar in on top of codespace in VisualStudio Community v17.13 Preview 1.0",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:09:20.150543"
+  },
+  {
+    "post_id": 79359473,
+    "title": "VS Code Adds Indentation upon ctrl+enter with &quot;python.REPL.sendToNativeREPL&quot;: false",
+    "llm": "gpt",
+    "extraction_without_ocr": "```plaintext\nIndentationError: unexpected indent\n```",
+    "extraction_with_ocr": "```plaintext\nIndentationError: unexpected indent\n```",
+    "timestamp": "2025-03-12T16:09:24.251305"
+  },
+  {
+    "post_id": 79360350,
+    "title": "How to convert a VARCHAR to DATE in Snowflake",
+    "llm": "gpt",
+    "extraction_without_ocr": "",
+    "extraction_with_ocr": "",
+    "timestamp": "2025-03-12T16:09:27.137841"
+  },
+  {
+    "post_id": 79363430,
+    "title": "The listener for durable function was unable to start because the target machine actively refused it",
+    "llm": "gpt",
+    "extraction_without_ocr": "```json\n\"AzureWebJobsStorage\": \"UseDevelopmentStorage=true\",\n\"AzureWebJobsSecretStorageType\": \"files\"\n```",
+    "extraction_with_ocr": "```json\n\"AzureWebJobsStorage\": \"UseDevelopmentStorage=true\",\n\"AzureWebJobsSecretStorageType\": \"files\"\n```",
+    "timestamp": "2025-03-12T16:09:32.847087"
+  },
+  {
+    "post_id": 79363463,
+    "title": "Swift concurrency confusing Sendability error",
+    "llm": "gpt",
+    "extraction_without_ocr": "```swift\nlet foo = Foo()\nDispatchQueue.global().async {\n    Task { @MainActor in\n        print(foo)\n    }\n}\n```\n\n```\n⚠️ Capture of 'foo' with non-sendable type 'Foo' in a `@Sendable` closure\n```",
+    "extraction_with_ocr": "```swift\nlet foo = Foo()\nDispatchQueue.global().async {\n    Task { @MainActor in\n        print(foo)\n    }\n}\n```\n\n```\n⚠️ Capture of 'foo' with non-sendable type 'Foo' in a `@Sendable` closure\n```",
+    "timestamp": "2025-03-12T16:09:39.809548"
+  },
+  {
+    "post_id": 79382058,
+    "title": "Chrome extension using Drive API returns incomplete search",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\n{\"kind\":\"drive#fileList\",\"incompleteSearch\":false,\"files\":[]}\n```\n\n```\n{kind: \"drive#fileList\", incompleteSearch: false, files: Array(0)}\n```",
+    "extraction_with_ocr": "```\n{\"kind\":\"drive#fileList\",\"incompleteSearch\":false,\"files\":[]}\n```\n\n```\n{kind: 'drive#fileList', incompleteSearch: false, files: Array(0)}\n```",
+    "timestamp": "2025-03-12T16:09:48.206296"
+  },
+  {
+    "post_id": 79383497,
+    "title": "How to disable the implicit formatting of python rich?",
+    "llm": "gpt",
+    "extraction_without_ocr": "```python\nconsole.print(\"aaa [red] bbb [/red] 123 'ccc'\")\n```",
+    "extraction_with_ocr": "```python\nconsole.print(\"aaa [red] bbb [/red] 123 'ccc'\")\n```",
+    "timestamp": "2025-03-12T16:09:53.735317"
+  },
+  {
+    "post_id": 79388779,
+    "title": "Evaluation of @ConditionalOn* in Spring Boot",
+    "llm": "gpt",
+    "extraction_without_ocr": "```java\n@ConditionalOnClass(CqlSession.class)\n```",
+    "extraction_with_ocr": "```java\n@ConditionalOnClass(CqlSession.class)\n```",
+    "timestamp": "2025-03-12T16:10:02.303112"
+  },
+  {
+    "post_id": 79403392,
+    "title": "Fortran - Syntax error, found END-OF-STATEMENT",
+    "llm": "gpt",
+    "extraction_without_ocr": "```\nCALL LOGMEAN(TR1G,TRC2F,TIDB,T2DB,DTMKEY,FLOW,DTMZ(2),THRMLMTD)\nCALL LOGMEAN(TR1G,TRSALT,TAB23,TAB12,DTMKEY,FLOW,DTMZ(2),THRMLMTD)\nCALL LOGMEAN(TR0(5),TRIG,TAB23,TAB12,DTMKEY,FLOW,DTMZ(1),THRMLMTD)\nCALL LOGMEAN(TR1G,TRSALT,TAB12,TAB23,DTMKEY,FLOW,DTMZ(2),THRMLMTD)\nCALL LOGMEAN(TR0(5),TRIG,TAB23,T2DB,DTMKEY,FLOW,DTMZ(1),THRMLMTD)\n```",
+    "extraction_with_ocr": "```fortran\nCALL LOGMEAN(TRIG,TRC2F,TIDB,T2DB,DTMKEY,FLOW,DTMZ(2),THRMLMTD)\nCALL LOGMEAN(TRSALT, TR2(5), TIDB, TAB23, DTMKEY, FLOW, DTMZ(3), THRMLMTD)\nCALL LOGMEAN(TRIG,TRSALT,TAB23,TAB12,DTMKEY,FLOW,DTMZ(2),THRMLMTD)\nCALL LOGMEAN(TR0(5),TRIG,TIDB,T2DB,DTMKEY,FLOW,DTMZ(1),THRMLMTD)\nCALL LOGMEAN(TRSALT,TR2(5),TIDB,TAB12,DTMKEY,FLOW,DTMZ(3),THRMLMTD)\nCALL LOGMEAN(TRIG,TRSALT,TAB12,TAB23,DTMKEY,FLOW,DTMZ(2),THRMLMTD)\nCALL LOGMEAN(TR0(5),TRIG,TAB23,T2DB,DTMKEY,FLOW,DTMZ(1),THRMLMTD)\nCALL LOGMEAN(TRIG,TRSALT,TIDB,TAB23,DTMKEY,FLOW,DTMZ(3),THRMLMTD)\nCALL LOGMEAN(TRIG,TRSALT,TAB12,TAB23,DTMKEY,FLOW,DTMZ(2),THRMLMTD)\nCALL LOGMEAN(TR0(5),TRIG,TIDB,TAB12,DTMKEY,FLOW,DTMZ(1),THRMLMTD)\n```",
+    "timestamp": "2025-03-12T16:10:13.909390"
+  }
+]

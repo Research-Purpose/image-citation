@@ -1,0 +1,4 @@
+stackoverflow-processor/
+.env
+.qodo
+analyzer/data/CREDENTIALS.json

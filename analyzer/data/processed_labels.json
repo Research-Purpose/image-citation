@@ -1,0 +1,458 @@
+[
+  {
+    "related_text": "",
+    "post_id": 79049664
+  },
+  {
+    "related_text": ".action-icon { @apply w-6 h-6; @apply rounded-full;",
+    "post_id": 79143869
+  },
+  {
+    "related_text": "const user = UseAuthUser();",
+    "post_id": 79139318
+  },
+  {
+    "related_text": "",
+    "post_id": 79136659
+  },
+  {
+    "related_text": "\nSampleClass.java\npackage main;\nTest.java X\nimport org.junit.rules.ExpectedException;\npublic class Test {\n@org.junit.Rule\npublic ExpectedException thrown = ExpectedException.none();\n@org.junit.Test\npublic void normalTest() {\n\nSampleClass sample = new SampleClass(\"123456\");\n@org.junit.Test(expected = IllegalArgumentException.class) public void length TestOriginal() {\n}\nSampleClass sample = new SampleClass(\"1234567\");\n@org.junit.Test\npublic void lengthTestVersion1() {\n}\nthrown.expect(IllegalArgumentException.class);\nthrown.expectMessage(\"Invalid length\"); SampleClass sample = new SampleClass(\"12345\");\n@org.junit.Test\npublic void length TestVersion2() {\ntry {\nSampleClass puerto2 = new SampleClass(\"1234567\");\n} catch (IllegalArgumentException e) {\norg.junit.Assert.assertEquals(\"Invalid length\", e.getMessage());",
+    "post_id": 79130057
+  },
+  {
+    "related_text": "\nPublic Class Form1\nDim Form2 As Form2\nPrivate Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load  {Pokus. _new_instance.Form1, Text: Form1}\nWith Me.Form2\nMe.Form2 = New Form2(\"Some name\")\nTrue\nEnd With\nEnd Sub\nEnd Class",
+    "post_id": 79127946
+  },
+  {
+    "related_text": "",
+    "post_id": 79126749
+  },
+  {
+    "related_text": "detectChange()",
+    "post_id": 79125244
+  },
+  {
+    "related_text": "transitionSpec: {\n open: config,\nclose :closeCOnfig\n}",
+    "post_id": 79124931
+  },
+  {
+    "related_text": "",
+    "post_id": 79123414
+  },
+  {
+    "related_text": "",
+    "post_id": 79122150
+  },
+  {
+    "related_text": "{ \"manifest_version\": 3, \"name\": \"CRXJS React Vite Example\", \"version\": \"1.0.0\", \"action\": { \"default_title\": \"Tags New\", \"default_popup\": \"index.html\" }, \"permissions\": [\"storage\", \"webNavigation\", \"tabs\", \"scripting\", \"cookies\", \"activeTab\"], \"background\": { \"service_worker\": \"src/background.js\" }, \"content_security_policy\": { \"extension_pages\": \"script-src 'self' 'wasm-unsafe-eval'; object-src 'self'\" }, \"content_scripts\": [ { \"js\": [\"src/content.jsx\"], \"matches\": [\"<all_urls>\"], \"run_at\": \"document_idle\" } ], \"host_permissions\": [ \"http://localhost:3001/*\", \"https://tagdots.vercel.app/*\" ], \"web_accessible_resources\": [ { \"resources\": [\"images/cursor-custom.png\", \"images/icon32.png\"], \"matches\": [\"<all_urls>\"] } ], \"icons\": { \"16\": \"images/icon32.png\", \"32\": \"images/icon32.png\", \"48\": \"images/icon64.png\", \"128\": \"images/icon64.png\" } }",
+    "post_id": 79119961
+  },
+  {
+    "related_text": "",
+    "post_id": 79118923
+  },
+  {
+    "related_text": "",
+    "post_id": 79118843
+  },
+  {
+    "related_text": "",
+    "post_id": 79118490
+  },
+  {
+    "related_text": "",
+    "post_id": 79118152
+  },
+  {
+    "related_text": "",
+    "post_id": 79117563
+  },
+  {
+    "related_text": "",
+    "post_id": 79090291
+  },
+  {
+    "related_text": "=IF(P2<>\"\",P2,INDEX($R$2:$R$5000,ROW()-COUNTA($P$2:$P$5000)))",
+    "post_id": 79084406
+  },
+  {
+    "related_text": "",
+    "post_id": 79049234
+  },
+  {
+    "related_text": "",
+    "post_id": 79048749
+  },
+  {
+    "related_text": "",
+    "post_id": 79048500
+  },
+  {
+    "related_text": "",
+    "post_id": 79047610
+  },
+  {
+    "related_text": "",
+    "post_id": 79045146
+  },
+  {
+    "related_text": "",
+    "post_id": 79306199
+  },
+  {
+    "related_text": "",
+    "post_id": 79287469
+  },
+  {
+    "related_text": "",
+    "post_id": 79298483
+  },
+  {
+    "related_text": "",
+    "post_id": 79298337
+  },
+  {
+    "related_text": "",
+    "post_id": 79283291
+  },
+  {
+    "related_text": "",
+    "post_id": 79292405
+  },
+  {
+    "related_text": "\"samplingSettings\": {\n\"isEnabled\": true,\n\"excludedTypes\": \"Request\"\n\"enableLiveMetricsFilters\": true\nLogs\nApp Insights Logs\nLog\nConnected! You are now ",
+    "post_id": 79293711
+  },
+  {
+    "related_text": "\n1.50MB\nwg.Add(b.N)\nfor i = 0; i < b.N; i++ {\ngo func(wg *sync.WaitGroup) {\nfor i := 0; i < numCalls; i++ {\n}\n\nb.Run(\"atomic\", func(b *testing.B) {\nwg.Add(b.N)\nfor i = 0; i < b.N; i++ {\ngo func(wg *sync.WaitGroup) {\n\nfor i := 0; i < numCalls; i++ {\natomicCounter.Add(1)\nwg.Done()\n}",
+    "post_id": 79291999
+  },
+  {
+    "related_text": ".create table sachin_test(col1: double)\n.ingest inline into table sachin_test <|\n1.7976931348623157E308\nsachin_test",
+    "post_id": 79283785
+  },
+  {
+    "related_text": "\n\n document.cookie = \"myCookie-myValue; expires=Thu, 01 Jan 2025 00:00:00 UTC; path=/\";\n'myCookie=myValue; expires=Thu, 01 Jan 2025 00:00:00 UTC; path=/'\n document.cookie\n",
+    "post_id": 79288802
+  },
+  {
+    "related_text": "\n},\n\"newClusterSparkEnvVars\": {\n},\n\"PYSPARK_PYTHON\": \"/databricks/python3/bin/python3\"\n\"newClusterDriverNodeType\": \"@linkedService().DriverNodeType\", \"newClusterInitScripts\": [\n1,\n\"/Workspace/Ingestion/init_odbc_driver.sh\"\n\"credential\": {",
+    "post_id": 79286745
+  },
+  {
+    "related_text": "\n@publiclyInitializable()\npublic struct AnyParams: HasMetaValue, Encodable {\npublic let _meta: AnyMeta?\npublic let value: JSON?\ninternal init(\n_meta: AnyMeta?,\nvalue: JSON?\n@publiclyInitializable\n) {\nself._meta = _meta\nself.value = value",
+    "post_id": 79285646
+  },
+  {
+    "related_text": "\nconst startingMonth = \"2024-10-01 00:00:00\"; const endingMonth = \"2024-12-01 00:00:00\"; const allMonths: TZDate[] = eachMonthOfInterval(\n{\nstart: startingMonth,\nend: endingMonth,\n},\n{\nin: tz(\"Asia/Calcutta\"),\n}\n;\nconsole.log(allMonths);\nconsole.log(allMonths [0].internal);",
+    "post_id": 79284472
+  },
+  {
+    "related_text": "import tkinter as tk\nMain lroot = tk.Tk()\nroot.title(\"script\")\nroot.geometry(\"400x400\")\nroot.attributes('-alpha', 0.5) root.mainloop)\n python>>> import tkinter as tk\n>>> root = tk.Tk()\n>>> root.geometry(\"400x400\")\n>>> root.attributes(\"-alpha\", 0.5)\n>>> root.mainloop()",
+    "post_id": 79279577
+  },
+  {
+    "related_text": "Created_at:null",
+    "post_id": 79278047
+  },
+  {
+    "related_text": "begin select edrpou || '; ' || nameorg || '; ' || short_name || '; ' || address || '; ' || boss into :P206_SEARCH_RESULT from dual left join ( select * from ( select trim(d.edrpou) edrpou, trim(d.nameorg) nameorg, trim(d.short_name) short_name,",
+    "post_id": 79274920
+  },
+  {
+    "related_text": "Mock (return_value=None)\nmock(1, 2, arg='thing')\nmock('some', 'thing', 'else')\n mock.assert_any_call(1, 2, arg='thing')",
+    "post_id": 79273621
+  },
+  {
+    "related_text": "",
+    "post_id": 79261983
+  },
+  {
+    "related_text": "",
+    "post_id": 79268509
+  },
+  {
+    "related_text": "Private Sub RunMacroForDropdown(ByVal Target As Range) Dim Synthese_Global As Worksheet Set Synthese_Global = ThisWorkbook.Worksheets(\"Synth\u00e8se_Globale\") If Not Intersect(Target, Synthese_Global.Range(\"B1\")) Is Nothing Then Call MyMacro End If End Sub Sub MyMacro() MsgBox \"Cell B1 has changed!\" End Sub",
+    "post_id": 79266306
+  },
+  {
+    "related_text": "import plotly.express as px fig = px.scatter(px.data.tips(), x=\"total_bill\", y=\"tip\", facet_col=\"smoker\") fig.for_each_annotation(lambda a: a.update(text=a.text.split(\"=\")[-1])) fig.show()",
+    "post_id": 79263329
+  },
+  {
+    "related_text": "b1.ComplexProperty>(\"Trashed_\", \"Zz.Model.Identity.UserMetaData. Trashed_#TrashData\", b2 \u21d2{ \nb2.IsRequired();\nb2.Property(\"Reason\") .HasColumnType(\"TEXT\");\nb2. Property(\"Value\") .HasColumnType(\"TEXT\");",
+    "post_id": 79131326
+  },
+  {
+    "related_text": "(MainWindow.axaml\n<Window xmlns=\"https://github.com/avaloniaui\"\nxmlns:x=\"http://schemas.microsoft.com/winfx/2006/xaml\" xmlns:d=\"http://schemas.microsoft.com/expression/blend/2008\"\nxmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\"\nmc:Ignorable=\"d\" d:DesignWidth=\"800\" d:DesignHeight=\"450\"\nx:Class=\"avava.MainWindow\"\nWidth=\"200\"\nHeight=\"200\"\nBackground=\"Transparent\"\nWindowStartupLocation=\"CenterScreen\"\nTransparencyBackgroundFallback= \"Transparent\"\nExtendClientAreaToDecorationsHint=\"True\"\nExtendClientAreaChromeHints=\"NoChrome\"\nExtendClientAreaTitleBarHeightHint=\"-1\"\nSystemDecorations=\"None\"\nBorderBrush=\"Transparent\"\nBorderThickness=\"0\">\n<Ellipse Fill=\"Green\" Opacity=\"0.5\" Width=\"150\" Height=\"150\" StrokeThickness=\"10\" Stroke=\"Blue\"/> \n</Window>\n",
+    "post_id": 79049369
+  },
+  {
+    "related_text": "data(mtcars)\nlibrary(gtsummary) \nlibrary(knitr)\ntbl <- mtcars %>%\nselect(mpg, cyl, disp) %>% \ntbl_summary() |>\nmodify_caption(\"This is a test\")\ntbl",
+    "post_id": 79106027
+  },
+  {
+    "related_text": "export const Box = forwardRef(function Box(\n{ as: Element = 'div', ...restProps }: BoxOwnProps, ref: Ref<Element>\n) {\nconst handleOnClick = useCallback((ev: HTMLElement) => {\n// do something\nconsole.log(ev.currentTarget);\n}, []);\nreturn <Element ref={ref} onClick={handleOnClick} {...restProps} />;\n}) as <E extends ElementType = 'div'>(props: BoxProps<E>) => JSX.Element;",
+    "post_id": 79145758
+  },
+  {
+    "related_text": "Foo.model fields[k].json_schema_extra[\"prompt\"] = kwargs[k]",
+    "post_id": 79130069
+  },
+  {
+    "related_text": "",
+    "post_id": 79133673
+  },
+  {
+    "related_text": "load pickle with open(\"rivergate_image.pkl\", \"rb\") as f: \nriver_images = pickle.load(f) \nprint(river_images[0]) \nprint(len(river_images))",
+    "post_id": 79135570
+  },
+  {
+    "related_text": "",
+    "post_id": 79131301
+  },
+  {
+    "related_text": "",
+    "post_id": 79123778
+  },
+  {
+    "related_text": "",
+    "post_id": 79130529
+  },
+  {
+    "related_text": "<div class=\"field has-addons\">\n<div class=\"control\">\n<input class=\"input\" type=\"text\" placeholder=\"Find a repository\"> </div>\n<div class=\"control\">\n<button class=\"button is-info\">\nSearch\n</button>\n</div>",
+    "post_id": 79130607
+  },
+  {
+    "related_text": "import androidx.lifecycle.viewmodel.compose.viewModel",
+    "post_id": 79083932
+  },
+  {
+    "related_text": "",
+    "post_id": 79079487
+  },
+  {
+    "related_text": "",
+    "post_id": 79050338
+  },
+  {
+    "related_text": "",
+    "post_id": 79050210
+  },
+  {
+    "related_text": "",
+    "post_id": 79314862
+  },
+  {
+    "related_text": "",
+    "post_id": 79314827
+  },
+  {
+    "related_text": "",
+    "post_id": 79306772
+  },
+  {
+    "related_text": "auto err = std::getenv_s(nullptr, &appdata[0], 256, \"APPDATA\");\n",
+    "post_id": 79044080
+  },
+  {
+    "related_text": "",
+    "post_id": 79041900
+  },
+  {
+    "related_text": "",
+    "post_id": 79320289
+  },
+  {
+    "related_text": "System.out.println(innerChild.getClass().getName());",
+    "post_id": 79315298
+  },
+  {
+    "related_text": "ngAfterContentInit() {\nif(this.headerSubtitleContent())\nthis.headerSubtitleContent()?.nativeElement.textContent = 'Enjoy a customized experience!';\n}",
+    "post_id": 79083164
+  },
+  {
+    "related_text": "",
+    "post_id": 79049664
+  },
+  {
+    "related_text": ".action-icon { @apply w-6 h-6; @apply rounded-full;",
+    "post_id": 79143869
+  },
+  {
+    "related_text": "package.json",
+    "post_id": 79108863
+  },
+  {
+    "related_text": "\"Hello World!\"",
+    "post_id": 79085456
+  },
+  {
+    "related_text": "We need access to your camera to scan QR codes",
+    "post_id": 79101395
+  },
+  {
+    "related_text": "jq: error (at /tmp/data.json:40): Cannot iterate over null (null) undefined",
+    "post_id": 79099839
+  },
+  {
+    "related_text": "python -m unittest discover -s src -p \"tests.py\" Ran 0 tests in 0.000s OK",
+    "post_id": 79077951
+  },
+  {
+    "related_text": "token error: invalid_request, error_description: client_secret is missing",
+    "post_id": 79090584
+  },
+  {
+    "related_text": "None of the following functions can be called with the arguments supplied",
+    "post_id": 79091650
+  },
+  {
+    "related_text": "Keycloak authenticated false",
+    "post_id": 79085458
+  },
+  {
+    "related_text": "private navTitle = contentChild<ElementRef<HTMLElement>>('navbar');",
+    "post_id": 79083164
+  },
+  {
+    "related_text": "The value of the field '_name' isn't used. Try removing the field, or using it.",
+    "post_id": 79082901
+  },
+  {
+    "related_text": "void main()\n{\nprint(\"I need help!\");\n}",
+    "post_id": 79078611
+  },
+  {
+    "related_text": "krontab.knm import dev.inmo.krontab.builder.SchedulerBuilder",
+    "post_id": 79152920
+  },
+  {
+    "related_text": "button class=\"walla-button__button walla-button__button\"",
+    "post_id": 79232064
+  },
+  {
+    "related_text": "run_shiny_from_function()",
+    "post_id": 79213097
+  },
+  {
+    "related_text": " event.",
+    "post_id": 79235964
+  },
+  {
+    "related_text": "Pressure: Pa",
+    "post_id": 79223478
+  },
+  {
+    "related_text": "border-color: var(\"palette-secondary\")",
+    "post_id": 79222793
+  },
+  {
+    "related_text": "import matplotlib.pyplot as plt\nimport numpy as np\n\nfig = plt.figure()\n\n# 24-Hour X-tick\nax = fig.add_subplot(projection='polar')\nax.set_xticks(range(0, 24))\nax.set_xticklabels([str(number) for number in range(0, 24)])\n\n# 31-Day Y-Tick\nax.set_yticks(range(0, 31))\nax.set_yticklabels([str(number) for number in range(0, 31)])\n\n# Force plot to show all ticks\nplt.grid(True)\n\n# Point\nc = ax.scatter([23], [23])",
+    "post_id": 79219211
+  },
+  {
+    "related_text": "recipients: null,\naddress: null",
+    "post_id": 79167189
+  },
+  {
+    "related_text": "WF Checking 7246\n$500\nAvailable balance",
+    "post_id": 79205587
+  },
+  {
+    "related_text": "user.effect (property) ",
+    "post_id": 79200235
+  },
+  {
+    "related_text": "Calendar calendar = Calendar.getInstance() calendar.setTime(currentDate) Integer dayOfWeek = calendar.get(Calendar.DAY_OF_WEEK) if (dayOfWeek > Calendar.MONDAY) { Integer daysDifferenceFromMonday = dayOfWeek - Calendar.MONDAY calendar.add(Calendar.DATE, -daysDifferenceFromMonday) } else if (dayOfWeek < Calendar.MONDAY) { // it means that we are on Sunday and we need last sunday Integer daysDifferenceFromMonday = 7 - (Calendar.MONDAY - dayOfWeek) calendar.add(Calendar.DATE, -daysDifferenceFromMonday) } calendar.set(Calendar.MILLISECOND, 0) calendar.set(Calendar.SECOND, 0) calendar.set(Calendar.MINUTE, 0) calendar.set(Calendar.HOUR, 0) Date toDate = calendar.getTime()",
+    "post_id": 79201667
+  },
+  {
+    "related_text": "docker compose -f docker-compose.dev.yml up --build",
+    "post_id": 79181510
+  },
+  {
+    "related_text": "Minimumelasticinstancecount: 0,",
+    "post_id": 79160159
+  },
+  {
+    "related_text": "import React, { useEffect } from 'react'; import { View, Button } from 'react-native'; import TrackPlayer,{ Capability } from 'react-native-track-player'; const AudioPlayer: React.FC = () => { useEffect(() => { const setupPlayer = async () => { await TrackPlayer.setupPlayer(); // Ajout de la piste const audioPath = require('../../assets/audio/teddy.mp3'); await TrackPlayer.add({ id: 'trackId', url: audioPath, title: 'Teddy Audio', artist: 'Inconnu', artwork: 'https://www.example.com/artwork.jpg', }); // Configure les contr\u00f4les de notification TrackPlayer.updateOptions({ capabilities: [ Capability.Play, Capability.Pause, Capability.Stop, ], compactCapabilities: [ Capability.Play, Capability.Pause, ], notificationCapabilities: [ Capability.Play, Capability.Pause, Capability.Stop, ], }); }; setupPlayer(); return () => { TrackPlayer.stop(); }; }, []); const playAudio = async () => { await TrackPlayer.play(); }; const pauseAudio = async () => { await TrackPlayer.pause(); }; return ( <View> <Button title=\"Lire l'audio\" onPress={playAudio} /> <Button title=\"Pause\" onPress={pauseAudio} /> </View> ); }; export default AudioPlayer;",
+    "post_id": 79192259
+  },
+  {
+    "related_text": "spring-boot-starter-Webflux",
+    "post_id": 79186360
+  },
+  {
+    "related_text": "import { createNavigation } from \"next-intl/navigation\"; import { defineRouting } from \"next-intl/routing\"; export const routing = defineRouting({ locales: [\"en-US\", \"fr-CA\", \"nl-NL\"], defaultLocale: \"en-US\", }); export type Pathnames = keyof typeof routing.pathnames; export type Locale = (typeof routing.locales)[number]; export const { Link, getPathname, redirect, usePathname, useRouter } = createNavigation(routing);",
+    "post_id": 79168391
+  },
+  {
+    "related_text": "E/AndroidRuntime(29040): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.appazon.appazon/com.appazon.appazon.MainActivity}: java.lang.ClassNotFoundException: Didn't find class \"com.appazon.appazon.MainActivity\" on path: DexPathList[[zip file \"/data/app/~~OM2AzhFMd9XUFVOiiYzuPQ==/com.appazon.appazon-gzQHt98phAih6HHo86Rtng==/base.apk\"],nativeLibraryDirectories=[/data/app/~~OM2AzhFMd9XUFVOiiYzuPQ==/com.appazon.appazon-gzQHt98phAih6HHo86Rtng==/lib/arm64, /data/app/~~OM2AzhFMd9XUFVOiiYzuPQ==/com.appazon.appazon-gzQHt98phAih6HHo86Rtng==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64]]",
+    "post_id": 79175055
+  },
+  {
+    "related_text": "LOGMEAN(TR1G,TRSATL,TAB23,TAB12,DTMKEY,FLOW,DTMZ(2),THRMLMTD)",
+    "post_id": 79403392
+  },
+  {
+    "related_text": "Capture of 'foo' with non-sendable type 'Foo' in a '@Sendable' closure",
+    "post_id": 79363463
+  },
+  {
+    "related_text": "@EnableConfigurationProperties(CassandraProperties.class)",
+    "post_id": 79388779
+  },
+  {
+    "related_text": "from rich.console import Console\nconsole  = Console()\nconsole.print(\"aaa [red] bbb [/red] 123 'ccc'\")",
+    "post_id": 79383497
+  },
+  {
+    "related_text": "incomeplelteSearch:  false",
+    "post_id": 79382058
+  },
+  {
+    "related_text": " \"AzureWebJobsSecretStorageType\": \"files\" ",
+    "post_id": 79363430
+  },
+  {
+    "related_text": "P 1. EST. Project kickoff Date",
+    "post_id": 79360350
+  },
+  {
+    "related_text": "IdentationError: unexpected indent",
+    "post_id": 79359473
+  },
+  {
+    "related_text": "Unity",
+    "post_id": 79357676
+  },
+  {
+    "related_text": "from scapy.all import * \npkt = sniff(iface='wlan1', timeout=10)\npkt",
+    "post_id": 79355058
+  },
+  {
+    "related_text": "chain Icon",
+    "post_id": 79354105
+  },
+  {
+    "related_text": "TERMINAL\n$ python number.py",
+    "post_id": 79342759
+  },
+  {
+    "related_text": "Ambiguous overload. The overloaded alternatives of method where in trait JpaCriteriaQuery with types\n(x$0: jakarta.persistence.criteria.Predicate*):\norg.hibernate.query.criteria.JpaCriteriaQuery[database.Server]\n(x$0: jakarta.persistence.criteria.Expression[Boolean]):\norg.hibernate.query.criteria.JpaCriteriaQuery[database.Server]\nboth match arguments (org.hibernate.query.criteria.JpaPredicate)",
+    "post_id": 79324593
+  },
+  {
+    "related_text": "from sklearn.metrics import mean_squared_error",
+    "post_id": 79107149
+  },
+  {
+    "related_text": "shortDescription:\ndefault\nen-us\nlongDescription:\ndefault:\nen-us",
+    "post_id": 79042213
+  },
+  {
+    "related_text": "Type '{ animation: string; config: { stiffness: number; damping: number; mass: number; overshootClamping: boolean; restDisplacementThreshold: number; restSpeedThreshold: number; }; }' is not assignable to type 'TransitionSpec'.\nType '{ animation: string; config: { duration: number; easing: EasingFunction; }; }' is not assignable to type 'TransitionSpec'.",
+    "post_id": 79124931
+  }
+]
